@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../omop_data_dict/location.html" rel="next">
+<link href="../omop_data_dict/fact_relationship.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -71,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-sidebar docked nav-fixed">
+<body class="nav-sidebar floating nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -103,24 +105,16 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/image_occurrence.html">IMAGE_OCCURRENCE</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/care_site.html">omop cdm</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/image_occurrence.html">IMAGE_OCCURRENCE</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
@@ -132,6 +126,15 @@ ul.task-list li input[type="checkbox"] {
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">omop cdm</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../omop_data_dict/care_site.html" class="sidebar-item-text sidebar-link">
@@ -320,41 +323,18 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#description" id="toc-description" class="nav-link active" data-scroll-target="#description">Description</a>
-  <ul class="collapse">
-  <li><a href="#image_occurrence_id-pk" id="toc-image_occurrence_id-pk" class="nav-link" data-scroll-target="#image_occurrence_id-pk">IMAGE_OCCURRENCE_ID (PK)</a></li>
-  <li><a href="#person_id-fk" id="toc-person_id-fk" class="nav-link" data-scroll-target="#person_id-fk">PERSON_ID (FK)</a></li>
-  <li><a href="#procedure_occurrence_id" id="toc-procedure_occurrence_id" class="nav-link" data-scroll-target="#procedure_occurrence_id">PROCEDURE_OCCURRENCE_ID</a></li>
-  <li><a href="#visit_occurrence_id" id="toc-visit_occurrence_id" class="nav-link" data-scroll-target="#visit_occurrence_id">VISIT_OCCURRENCE_ID</a></li>
-  <li><a href="#anatomic_site_source_value" id="toc-anatomic_site_source_value" class="nav-link" data-scroll-target="#anatomic_site_source_value">ANATOMIC_SITE_SOURCE_VALUE</a></li>
-  <li><a href="#wadors_uri" id="toc-wadors_uri" class="nav-link" data-scroll-target="#wadors_uri">WADORS_URI</a></li>
-  <li><a href="#local_path" id="toc-local_path" class="nav-link" data-scroll-target="#local_path">LOCAL_PATH</a></li>
-  <li><a href="#image_occurrence_date" id="toc-image_occurrence_date" class="nav-link" data-scroll-target="#image_occurrence_date">IMAGE_OCCURRENCE_DATE</a></li>
-  <li><a href="#image_study_uid" id="toc-image_study_uid" class="nav-link" data-scroll-target="#image_study_uid">IMAGE_STUDY_UID</a></li>
-  <li><a href="#image_series_uid" id="toc-image_series_uid" class="nav-link" data-scroll-target="#image_series_uid">IMAGE_SERIES_UID</a></li>
-  <li><a href="#modality_source_value" id="toc-modality_source_value" class="nav-link" data-scroll-target="#modality_source_value">MODALITY_SOURCE_VALUE</a></li>
-  <li><a href="#accession_number" id="toc-accession_number" class="nav-link" data-scroll-target="#accession_number">_ACCESSION_NUMBER</a></li>
-  <li><a href="#source_flag-stanford-construct-for-traceability." id="toc-source_flag-stanford-construct-for-traceability." class="nav-link" data-scroll-target="#source_flag-stanford-construct-for-traceability.">SOURCE_FLAG (STANFORD CONSTRUCT FOR TRACEABILITY.</a></li>
-  <li><a href="#load_table_id-stanford-construct-for-traceability" id="toc-load_table_id-stanford-construct-for-traceability" class="nav-link" data-scroll-target="#load_table_id-stanford-construct-for-traceability">LOAD_TABLE_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</a></li>
-  <li><a href="#trace_id-stanford-construct-for-traceability" id="toc-trace_id-stanford-construct-for-traceability" class="nav-link" data-scroll-target="#trace_id-stanford-construct-for-traceability">TRACE_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/image_occurrence.html">IMAGE_OCCURRENCE</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/care_site.html">omop cdm</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/image_occurrence.html">IMAGE_OCCURRENCE</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">IMAGE_OCCURRENCE</h1>
 </div>
@@ -373,150 +353,187 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="description" class="level2">
-<h2 class="anchored" data-anchor-id="description">Description</h2>
 <p>Clinical Data Table (not yet a Standard)</p>
-<p>The following columns are available in this table:</p>
-<section id="image_occurrence_id-pk" class="level3">
-<h3 class="anchored" data-anchor-id="image_occurrence_id-pk">IMAGE_OCCURRENCE_ID (PK)</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A system-generated unique identifier for each Image Occurrence event.</li>
-</ul>
+<section id="table-columns" class="level3">
+<h3 class="anchored" data-anchor-id="table-columns">Table Columns</h3>
+<div class="table-responsive">
+<table class="table-hover caption-top table">
+<colgroup>
+<col style="width: 65%">
+<col style="width: 11%">
+<col style="width: 8%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">field</th>
+<th style="text-align: left;">type</th>
+<th style="text-align: left;">phi</th>
+<th style="text-align: left;">required</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">image_occurrence_id (PK)</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">person_id (FK)</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">procedure_occurrence_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">visit_occurrence_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">anatomic_site_source_value</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">wadors_uri</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">local_path</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">image_occurrence_date</td>
+<td style="text-align: left;">DATE</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">image_study_uid</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">image_series_uid</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">modality_source_value</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">_accession_number</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">source_flag (Stanford construct for traceability.</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">load_table_id (Stanford construct for traceability)</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">trace_id (Stanford construct for traceability)</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+</tbody>
+</table>
+</div>
 </section>
-<section id="person_id-fk" class="level3">
-<h3 class="anchored" data-anchor-id="person_id-fk">PERSON_ID (FK)</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A foreign key identifier to the Person who is subjected to the Drug. The demographic details of that Person are stored in the PERSON table.</li>
-</ul>
+<section id="columns-description" class="level3">
+<h3 class="anchored" data-anchor-id="columns-description">Columns Description</h3>
+<section id="image_occurrence_id-pk" class="level5">
+<h5 class="anchored" data-anchor-id="image_occurrence_id-pk">image_occurrence_id (pk)</h5>
+<p>A system-generated unique identifier for each Image Occurrence event.</p>
 </section>
-<section id="procedure_occurrence_id" class="level3">
-<h3 class="anchored" data-anchor-id="procedure_occurrence_id">PROCEDURE_OCCURRENCE_ID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> The unique key is given to a procedure record for a person. Links to the Procedure_occurrence table.</li>
-</ul>
+<section id="person_id-fk" class="level5">
+<h5 class="anchored" data-anchor-id="person_id-fk">person_id (fk)</h5>
+<p>A foreign key identifier to the Person who is subjected to the Drug. The demographic details of that Person are stored in the PERSON table.</p>
 </section>
-<section id="visit_occurrence_id" class="level3">
-<h3 class="anchored" data-anchor-id="visit_occurrence_id">VISIT_OCCURRENCE_ID</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> The unique key is given to the visit record for a person. Links to the Visit_occurrence table</li>
-</ul>
+<section id="procedure_occurrence_id" class="level5">
+<h5 class="anchored" data-anchor-id="procedure_occurrence_id">procedure_occurrence_id</h5>
+<p>The unique key is given to a procedure record for a person. Links to the Procedure_occurrence table.</p>
 </section>
-<section id="anatomic_site_source_value" class="level3">
-<h3 class="anchored" data-anchor-id="anatomic_site_source_value">ANATOMIC_SITE_SOURCE_VALUE</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> Anatomical location of the imaging procedure by the medical acquisition device (gross anatomy). It maps the ANATOMIC_SITE_SOURCE_VALUE to a Standard Concept in the Spec Anatomic Site domain. This should be coded at the lowest level of granularit</li>
-</ul>
+<section id="visit_occurrence_id" class="level5">
+<h5 class="anchored" data-anchor-id="visit_occurrence_id">visit_occurrence_id</h5>
+<p>The unique key is given to the visit record for a person. Links to the Visit_occurrence table</p>
 </section>
-<section id="wadors_uri" class="level3">
-<h3 class="anchored" data-anchor-id="wadors_uri">WADORS_URI</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> Web Access to DICOM Objects via Restful Web Services Uniform Resource Identifer on study level</li>
-</ul>
+<section id="anatomic_site_source_value" class="level5">
+<h5 class="anchored" data-anchor-id="anatomic_site_source_value">anatomic_site_source_value</h5>
+<p>Anatomical location of the imaging procedure by the medical acquisition device (gross anatomy). It maps the ANATOMIC_SITE_SOURCE_VALUE to a Standard Concept in the Spec Anatomic Site domain. This should be coded at the lowest level of granularit</p>
 </section>
-<section id="local_path" class="level3">
-<h3 class="anchored" data-anchor-id="local_path">LOCAL_PATH</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> Local path to the folder containing the image object file (access via a storage block access protocol)</li>
-</ul>
+<section id="wadors_uri" class="level5">
+<h5 class="anchored" data-anchor-id="wadors_uri">wadors_uri</h5>
+<p>Web Access to DICOM Objects via Restful Web Services Uniform Resource Identifer on study level</p>
 </section>
-<section id="image_occurrence_date" class="level3">
-<h3 class="anchored" data-anchor-id="image_occurrence_date">IMAGE_OCCURRENCE_DATE</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> DATE</li>
-<li><strong>Description:</strong> The date the imaging procedure occurred</li>
-</ul>
+<section id="local_path" class="level5">
+<h5 class="anchored" data-anchor-id="local_path">local_path</h5>
+<p>Local path to the folder containing the image object file (access via a storage block access protocol)</p>
 </section>
-<section id="image_study_uid" class="level3">
-<h3 class="anchored" data-anchor-id="image_study_uid">IMAGE_STUDY_UID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> DICOM Study UID(unique identifier). One study can include several series.</li>
-</ul>
+<section id="image_occurrence_date" class="level5">
+<h5 class="anchored" data-anchor-id="image_occurrence_date">image_occurrence_date</h5>
+<p>The date the imaging procedure occurred</p>
 </section>
-<section id="image_series_uid" class="level3">
-<h3 class="anchored" data-anchor-id="image_series_uid">IMAGE_SERIES_UID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> DICOM Series UID (unique identifier).</li>
-</ul>
+<section id="image_study_uid" class="level5">
+<h5 class="anchored" data-anchor-id="image_study_uid">image_study_uid</h5>
+<p>DICOM Study UID(unique identifier). One study can include several series.</p>
 </section>
-<section id="modality_source_value" class="level3">
-<h3 class="anchored" data-anchor-id="modality_source_value">MODALITY_SOURCE_VALUE</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> A label that defines the imaging procedures and usually refers to the type of imaging device used. It is of the attributes of the DICOM file (e.g., US, CT, MR, PT, DR, CR, NM).</li>
-</ul>
+<section id="image_series_uid" class="level5">
+<h5 class="anchored" data-anchor-id="image_series_uid">image_series_uid</h5>
+<p>DICOM Series UID (unique identifier).</p>
 </section>
-<section id="accession_number" class="level3">
-<h3 class="anchored" data-anchor-id="accession_number">_ACCESSION_NUMBER</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> A unique identifier assigned to a patient’s specimen or procedure order when it is entered into the system. Note that accession numbers may not be unique accross departments, but are usually unique accross modalities.</li>
-</ul>
+<section id="modality_source_value" class="level5">
+<h5 class="anchored" data-anchor-id="modality_source_value">modality_source_value</h5>
+<p>A label that defines the imaging procedures and usually refers to the type of imaging device used. It is of the attributes of the DICOM file (e.g., US, CT, MR, PT, DR, CR, NM).</p>
 </section>
-<section id="source_flag-stanford-construct-for-traceability." class="level3">
-<h3 class="anchored" data-anchor-id="source_flag-stanford-construct-for-traceability.">SOURCE_FLAG (STANFORD CONSTRUCT FOR TRACEABILITY.</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> The primary hospital system the data is sourced from.</li>
-</ul>
+<section id="accession_number" class="level5">
+<h5 class="anchored" data-anchor-id="accession_number">_accession_number</h5>
+<p>A unique identifier assigned to a patient’s specimen or procedure order when it is entered into the system. Note that accession numbers may not be unique accross departments, but are usually unique accross modalities.</p>
 </section>
-<section id="load_table_id-stanford-construct-for-traceability" class="level3">
-<h3 class="anchored" data-anchor-id="load_table_id-stanford-construct-for-traceability">LOAD_TABLE_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> The primary starr-common table the data is sourced from.</li>
-</ul>
+<section id="source_flag-stanford-construct-for-traceability." class="level5">
+<h5 class="anchored" data-anchor-id="source_flag-stanford-construct-for-traceability.">source_flag (stanford construct for traceability.</h5>
+<p>The primary hospital system the data is sourced from.</p>
 </section>
-<section id="trace_id-stanford-construct-for-traceability" class="level3">
-<h3 class="anchored" data-anchor-id="trace_id-stanford-construct-for-traceability">TRACE_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> A json string with the primary keys of the table in Clarity where most of the information for a given row is sourced</li>
-</ul>
+<section id="load_table_id-stanford-construct-for-traceability" class="level5">
+<h5 class="anchored" data-anchor-id="load_table_id-stanford-construct-for-traceability">load_table_id (stanford construct for traceability)</h5>
+<p>The primary starr-common table the data is sourced from.</p>
+</section>
+<section id="trace_id-stanford-construct-for-traceability" class="level5">
+<h5 class="anchored" data-anchor-id="trace_id-stanford-construct-for-traceability">trace_id (stanford construct for traceability)</h5>
+<p>A json string with the primary keys of the table in Clarity where most of the information for a given row is sourced</p>
 
 
 </section>
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -937,6 +954,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../omop_data_dict/fact_relationship.html" class="pagination-link" aria-label="FACT_RELATIONSHIP">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">FACT_RELATIONSHIP</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../omop_data_dict/location.html" class="pagination-link" aria-label="LOCATION">
+        <span class="nav-page-text">LOCATION</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 

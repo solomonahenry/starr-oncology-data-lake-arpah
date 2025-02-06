@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../omop_data_dict/fact_relationship.html" rel="next">
+<link href="../omop_data_dict/drug_exposure.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -71,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-sidebar docked nav-fixed">
+<body class="nav-sidebar floating nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -103,24 +105,16 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/drug_strength.html">DRUG_STRENGTH</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/care_site.html">omop cdm</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/drug_strength.html">DRUG_STRENGTH</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
@@ -132,6 +126,15 @@ ul.task-list li input[type="checkbox"] {
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">omop cdm</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../omop_data_dict/care_site.html" class="sidebar-item-text sidebar-link">
@@ -320,40 +323,18 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#description" id="toc-description" class="nav-link active" data-scroll-target="#description">Description</a>
-  <ul class="collapse">
-  <li><a href="#drug_concept_id" id="toc-drug_concept_id" class="nav-link" data-scroll-target="#drug_concept_id">DRUG_CONCEPT_ID</a></li>
-  <li><a href="#ingredient_concept_id" id="toc-ingredient_concept_id" class="nav-link" data-scroll-target="#ingredient_concept_id">INGREDIENT_CONCEPT_ID</a></li>
-  <li><a href="#amount_value" id="toc-amount_value" class="nav-link" data-scroll-target="#amount_value">AMOUNT_VALUE</a></li>
-  <li><a href="#amount_unit_concept_id" id="toc-amount_unit_concept_id" class="nav-link" data-scroll-target="#amount_unit_concept_id">AMOUNT_UNIT_CONCEPT_ID</a></li>
-  <li><a href="#numerator_value" id="toc-numerator_value" class="nav-link" data-scroll-target="#numerator_value">NUMERATOR_VALUE</a></li>
-  <li><a href="#numerator_unit_concept_id" id="toc-numerator_unit_concept_id" class="nav-link" data-scroll-target="#numerator_unit_concept_id">NUMERATOR_UNIT_CONCEPT_ID</a></li>
-  <li><a href="#denominator_value" id="toc-denominator_value" class="nav-link" data-scroll-target="#denominator_value">DENOMINATOR_VALUE</a></li>
-  <li><a href="#denominator_unit_concept_id" id="toc-denominator_unit_concept_id" class="nav-link" data-scroll-target="#denominator_unit_concept_id">DENOMINATOR_UNIT_CONCEPT_ID</a></li>
-  <li><a href="#box_size" id="toc-box_size" class="nav-link" data-scroll-target="#box_size">BOX_SIZE</a></li>
-  <li><a href="#valid_start_date" id="toc-valid_start_date" class="nav-link" data-scroll-target="#valid_start_date">VALID_START_DATE</a></li>
-  <li><a href="#valid_end_date" id="toc-valid_end_date" class="nav-link" data-scroll-target="#valid_end_date">VALID_END_DATE</a></li>
-  <li><a href="#invalid_reason" id="toc-invalid_reason" class="nav-link" data-scroll-target="#invalid_reason">INVALID_REASON</a></li>
-  <li><a href="#load_table_id-stanford-construct-for-traceability" id="toc-load_table_id-stanford-construct-for-traceability" class="nav-link" data-scroll-target="#load_table_id-stanford-construct-for-traceability">LOAD_TABLE_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</a></li>
-  <li><a href="#load_row-_id-stanford-construct-for-traceability" id="toc-load_row-_id-stanford-construct-for-traceability" class="nav-link" data-scroll-target="#load_row-_id-stanford-construct-for-traceability">LOAD_ROW _ID (STANFORD CONSTRUCT FOR TRACEABILITY)</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/drug_strength.html">DRUG_STRENGTH</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/care_site.html">omop cdm</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/drug_strength.html">DRUG_STRENGTH</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">DRUG_STRENGTH</h1>
 </div>
@@ -372,141 +353,177 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="description" class="level2">
-<h2 class="anchored" data-anchor-id="description">Description</h2>
 <p>Vocabulary Tables</p>
-<p>The following columns are available in this table:</p>
-<section id="drug_concept_id" class="level3">
-<h3 class="anchored" data-anchor-id="drug_concept_id">DRUG_CONCEPT_ID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A foreign key to the Concept in the CONCEPT table representing the identifier for Branded Drug or Clinical Drug Concept.</li>
-</ul>
+<section id="table-columns" class="level3">
+<h3 class="anchored" data-anchor-id="table-columns">Table Columns</h3>
+<div class="table-responsive">
+<table class="table-hover caption-top table">
+<colgroup>
+<col style="width: 65%">
+<col style="width: 11%">
+<col style="width: 8%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">field</th>
+<th style="text-align: left;">type</th>
+<th style="text-align: left;">phi</th>
+<th style="text-align: left;">required</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">drug_concept_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ingredient_concept_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">amount_value</td>
+<td style="text-align: left;">FLOAT</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">amount_unit_concept_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">numerator_value</td>
+<td style="text-align: left;">FLOAT</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">numerator_unit_concept_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">denominator_value</td>
+<td style="text-align: left;">FLOAT</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">denominator_unit_concept_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">box_size</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">valid_start_date</td>
+<td style="text-align: left;">DATE</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">valid_end_date</td>
+<td style="text-align: left;">DATE</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">invalid_reason</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">load_table_id (Stanford construct for traceability)</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">load_row _id (Stanford construct for traceability)</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+</tbody>
+</table>
+</div>
 </section>
-<section id="ingredient_concept_id" class="level3">
-<h3 class="anchored" data-anchor-id="ingredient_concept_id">INGREDIENT_CONCEPT_ID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A foreign key to the Concept in the CONCEPT table, representing the identifier for drug Ingredient Concept contained within the drug product.</li>
-</ul>
+<section id="columns-description" class="level3">
+<h3 class="anchored" data-anchor-id="columns-description">Columns Description</h3>
+<section id="drug_concept_id" class="level5">
+<h5 class="anchored" data-anchor-id="drug_concept_id">drug_concept_id</h5>
+<p>A foreign key to the Concept in the CONCEPT table representing the identifier for Branded Drug or Clinical Drug Concept.</p>
 </section>
-<section id="amount_value" class="level3">
-<h3 class="anchored" data-anchor-id="amount_value">AMOUNT_VALUE</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> FLOAT</li>
-<li><strong>Description:</strong> The numeric value associated with the amount of active ingredient contained within the product.</li>
-</ul>
+<section id="ingredient_concept_id" class="level5">
+<h5 class="anchored" data-anchor-id="ingredient_concept_id">ingredient_concept_id</h5>
+<p>A foreign key to the Concept in the CONCEPT table, representing the identifier for drug Ingredient Concept contained within the drug product.</p>
 </section>
-<section id="amount_unit_concept_id" class="level3">
-<h3 class="anchored" data-anchor-id="amount_unit_concept_id">AMOUNT_UNIT_CONCEPT_ID</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A foreign key to the Concept in the CONCEPT table representing the identifier for the Unit for the absolute amount of active ingredient.</li>
-</ul>
+<section id="amount_value" class="level5">
+<h5 class="anchored" data-anchor-id="amount_value">amount_value</h5>
+<p>The numeric value associated with the amount of active ingredient contained within the product.</p>
 </section>
-<section id="numerator_value" class="level3">
-<h3 class="anchored" data-anchor-id="numerator_value">NUMERATOR_VALUE</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> FLOAT</li>
-<li><strong>Description:</strong> The numeric value associated with the concentration of the active ingredient contained in the product</li>
-</ul>
+<section id="amount_unit_concept_id" class="level5">
+<h5 class="anchored" data-anchor-id="amount_unit_concept_id">amount_unit_concept_id</h5>
+<p>A foreign key to the Concept in the CONCEPT table representing the identifier for the Unit for the absolute amount of active ingredient.</p>
 </section>
-<section id="numerator_unit_concept_id" class="level3">
-<h3 class="anchored" data-anchor-id="numerator_unit_concept_id">NUMERATOR_UNIT_CONCEPT_ID</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A foreign key to the Concept in the CONCEPT table representing the identifier for the numerator Unit for the concentration of active ingredient.</li>
-</ul>
+<section id="numerator_value" class="level5">
+<h5 class="anchored" data-anchor-id="numerator_value">numerator_value</h5>
+<p>The numeric value associated with the concentration of the active ingredient contained in the product</p>
 </section>
-<section id="denominator_value" class="level3">
-<h3 class="anchored" data-anchor-id="denominator_value">DENOMINATOR_VALUE</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> FLOAT</li>
-<li><strong>Description:</strong> The amount of total liquid (or other divisible product, such as ointment, gel, spray, etc.).</li>
-</ul>
+<section id="numerator_unit_concept_id" class="level5">
+<h5 class="anchored" data-anchor-id="numerator_unit_concept_id">numerator_unit_concept_id</h5>
+<p>A foreign key to the Concept in the CONCEPT table representing the identifier for the numerator Unit for the concentration of active ingredient.</p>
 </section>
-<section id="denominator_unit_concept_id" class="level3">
-<h3 class="anchored" data-anchor-id="denominator_unit_concept_id">DENOMINATOR_UNIT_CONCEPT_ID</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A foreign key to the Concept in the CONCEPT table representing the identifier for the denominator Unit for the concentration of active ingredient.</li>
-</ul>
+<section id="denominator_value" class="level5">
+<h5 class="anchored" data-anchor-id="denominator_value">denominator_value</h5>
+<p>The amount of total liquid (or other divisible product, such as ointment, gel, spray, etc.).</p>
 </section>
-<section id="box_size" class="level3">
-<h3 class="anchored" data-anchor-id="box_size">BOX_SIZE</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> The number of units of Clinical of Branded Drug, or Quantified Clinical or Branded Drug contained in a box as dispensed to the patient</li>
-</ul>
+<section id="denominator_unit_concept_id" class="level5">
+<h5 class="anchored" data-anchor-id="denominator_unit_concept_id">denominator_unit_concept_id</h5>
+<p>A foreign key to the Concept in the CONCEPT table representing the identifier for the denominator Unit for the concentration of active ingredient.</p>
 </section>
-<section id="valid_start_date" class="level3">
-<h3 class="anchored" data-anchor-id="valid_start_date">VALID_START_DATE</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> DATE</li>
-<li><strong>Description:</strong> The date when the Concept was first recorded. The default value is 1-Jan-1970.</li>
-</ul>
+<section id="box_size" class="level5">
+<h5 class="anchored" data-anchor-id="box_size">box_size</h5>
+<p>The number of units of Clinical of Branded Drug, or Quantified Clinical or Branded Drug contained in a box as dispensed to the patient</p>
 </section>
-<section id="valid_end_date" class="level3">
-<h3 class="anchored" data-anchor-id="valid_end_date">VALID_END_DATE</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> DATE</li>
-<li><strong>Description:</strong> The date when the concept became invalid because it was deleted or superseded (updated) by a new Concept. The default value is 31-Dec-2099.</li>
-</ul>
+<section id="valid_start_date" class="level5">
+<h5 class="anchored" data-anchor-id="valid_start_date">valid_start_date</h5>
+<p>The date when the Concept was first recorded. The default value is 1-Jan-1970.</p>
 </section>
-<section id="invalid_reason" class="level3">
-<h3 class="anchored" data-anchor-id="invalid_reason">INVALID_REASON</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> Reason the concept was invalidated. Possible values are ‘D’ (deleted), ‘U’ (replaced with an update) or NULL when valid_end_date has the default value.</li>
-</ul>
+<section id="valid_end_date" class="level5">
+<h5 class="anchored" data-anchor-id="valid_end_date">valid_end_date</h5>
+<p>The date when the concept became invalid because it was deleted or superseded (updated) by a new Concept. The default value is 31-Dec-2099.</p>
 </section>
-<section id="load_table_id-stanford-construct-for-traceability" class="level3">
-<h3 class="anchored" data-anchor-id="load_table_id-stanford-construct-for-traceability">LOAD_TABLE_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> A json string with the primary keys of the table in Clarity where most of the information for a given row is sourced</li>
-</ul>
+<section id="invalid_reason" class="level5">
+<h5 class="anchored" data-anchor-id="invalid_reason">invalid_reason</h5>
+<p>Reason the concept was invalidated. Possible values are ‘D’ (deleted), ‘U’ (replaced with an update) or NULL when valid_end_date has the default value.</p>
 </section>
-<section id="load_row-_id-stanford-construct-for-traceability" class="level3">
-<h3 class="anchored" data-anchor-id="load_row-_id-stanford-construct-for-traceability">LOAD_ROW _ID (STANFORD CONSTRUCT FOR TRACEABILITY)</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> A reference to the position in the ETL code responsible for bringing in this row level data</li>
-</ul>
+<section id="load_table_id-stanford-construct-for-traceability" class="level5">
+<h5 class="anchored" data-anchor-id="load_table_id-stanford-construct-for-traceability">load_table_id (stanford construct for traceability)</h5>
+<p>A json string with the primary keys of the table in Clarity where most of the information for a given row is sourced</p>
+</section>
+<section id="load_row-_id-stanford-construct-for-traceability" class="level5">
+<h5 class="anchored" data-anchor-id="load_row-_id-stanford-construct-for-traceability">load_row _id (stanford construct for traceability)</h5>
+<p>A reference to the position in the ETL code responsible for bringing in this row level data</p>
 
 
 </section>
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -927,6 +944,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../omop_data_dict/drug_exposure.html" class="pagination-link" aria-label="DRUG_EXPOSURE">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">DRUG_EXPOSURE</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../omop_data_dict/fact_relationship.html" class="pagination-link" aria-label="FACT_RELATIONSHIP">
+        <span class="nav-page-text">FACT_RELATIONSHIP</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 

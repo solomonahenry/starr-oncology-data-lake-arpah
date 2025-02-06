@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./omop_data_dict/care_site.html" rel="next">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -71,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar docked nav-fixed">
+<body class="nav-sidebar floating nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -106,21 +107,13 @@ ul.task-list li input[type="checkbox"] {
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./data_dictionary.html">Data Dictionary</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
@@ -132,6 +125,15 @@ ul.task-list li input[type="checkbox"] {
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">omop cdm</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./omop_data_dict/care_site.html" class="sidebar-item-text sidebar-link">
@@ -320,14 +322,14 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -352,42 +354,42 @@ ul.task-list li input[type="checkbox"] {
 
 <p>The following OMOP-CDM tables are available in the initial release of dataset:</p>
 <ul>
-<li><a href="omop_data_dict/care_site">care_site</a></li>
-<li><a href="omop_data_dict/cdm_source">cdm_source</a></li>
-<li><a href="omop_data_dict/concept">concept</a></li>
-<li><a href="omop_data_dict/concept_ancestor">concept_ancestor</a></li>
-<li><a href="omop_data_dict/concept_class">concept_class</a></li>
-<li><a href="omop_data_dict/concept_relationship">concept_relationship</a></li>
-<li><a href="omop_data_dict/concept_synonym">concept_synonym</a></li>
-<li><a href="omop_data_dict/condition_era">condition_era</a></li>
-<li><a href="omop_data_dict/condition_occurrence">condition_occurrence</a></li>
-<li><a href="omop_data_dict/death">death</a></li>
-<li><a href="omop_data_dict/device_exposure">device_exposure</a></li>
-<li><a href="omop_data_dict/domain">domain</a></li>
-<li><a href="omop_data_dict/drug_era">drug_era</a></li>
-<li><a href="omop_data_dict/drug_exposure">drug_exposure</a></li>
-<li><a href="omop_data_dict/drug_strength">drug_strength</a></li>
-<li><a href="omop_data_dict/fact_relationship">fact_relationship</a></li>
-<li><a href="omop_data_dict/image_occurrence">image_occurrence</a></li>
-<li><a href="omop_data_dict/location">location</a></li>
-<li><a href="omop_data_dict/measurement">measurement</a></li>
-<li><a href="omop_data_dict/metadata">metadata</a></li>
-<li><a href="omop_data_dict/note">note</a></li>
-<li><a href="omop_data_dict/observation">observation</a></li>
-<li><a href="omop_data_dict/observation_period">observation_period</a></li>
-<li><a href="omop_data_dict/payer_plan_period">payer_plan_period</a></li>
-<li><a href="omop_data_dict/person">person</a></li>
-<li><a href="omop_data_dict/procedure_occurrence">procedure_occurrence</a></li>
-<li><a href="omop_data_dict/provider">provider</a></li>
-<li><a href="omop_data_dict/relationship">relationship</a></li>
-<li><a href="omop_data_dict/visit_detail">visit_detail</a></li>
-<li><a href="omop_data_dict/visit_occurrence">visit_occurrence</a></li>
-<li><a href="omop_data_dict/vocabulary">vocabulary</a></li>
+<li><a href="./omop_data_dict/care_site.html">care_site</a></li>
+<li><a href="./omop_data_dict/cdm_source.html">cdm_source</a></li>
+<li><a href="./omop_data_dict/concept.html">concept</a></li>
+<li><a href="./omop_data_dict/concept_ancestor.html">concept_ancestor</a></li>
+<li><a href="./omop_data_dict/concept_class.html">concept_class</a></li>
+<li><a href="./omop_data_dict/concept_relationship.html">concept_relationship</a></li>
+<li><a href="./omop_data_dict/concept_synonym.html">concept_synonym</a></li>
+<li><a href="./omop_data_dict/condition_era.html">condition_era</a></li>
+<li><a href="./omop_data_dict/condition_occurrence.html">condition_occurrence</a></li>
+<li><a href="./omop_data_dict/death.html">death</a></li>
+<li><a href="./omop_data_dict/device_exposure.html">device_exposure</a></li>
+<li><a href="./omop_data_dict/domain.html">domain</a></li>
+<li><a href="./omop_data_dict/drug_era.html">drug_era</a></li>
+<li><a href="./omop_data_dict/drug_exposure.html">drug_exposure</a></li>
+<li><a href="./omop_data_dict/drug_strength.html">drug_strength</a></li>
+<li><a href="./omop_data_dict/fact_relationship.html">fact_relationship</a></li>
+<li><a href="./omop_data_dict/image_occurrence.html">image_occurrence</a></li>
+<li><a href="./omop_data_dict/location.html">location</a></li>
+<li><a href="./omop_data_dict/measurement.html">measurement</a></li>
+<li><a href="./omop_data_dict/metadata.html">metadata</a></li>
+<li><a href="./omop_data_dict/note.html">note</a></li>
+<li><a href="./omop_data_dict/observation.html">observation</a></li>
+<li><a href="./omop_data_dict/observation_period.html">observation_period</a></li>
+<li><a href="./omop_data_dict/payer_plan_period.html">payer_plan_period</a></li>
+<li><a href="./omop_data_dict/person.html">person</a></li>
+<li><a href="./omop_data_dict/procedure_occurrence.html">procedure_occurrence</a></li>
+<li><a href="./omop_data_dict/provider.html">provider</a></li>
+<li><a href="./omop_data_dict/relationship.html">relationship</a></li>
+<li><a href="./omop_data_dict/visit_detail.html">visit_detail</a></li>
+<li><a href="./omop_data_dict/visit_occurrence.html">visit_occurrence</a></li>
+<li><a href="./omop_data_dict/vocabulary.html">vocabulary</a></li>
 </ul>
 
 
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -808,6 +810,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./omop_data_dict/care_site.html" class="pagination-link" aria-label="CARE_SITE">
+        <span class="nav-page-text">CARE_SITE</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 

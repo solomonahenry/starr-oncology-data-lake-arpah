@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../omop_data_dict/relationship.html" rel="next">
+<link href="../omop_data_dict/procedure_occurrence.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -71,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-sidebar docked nav-fixed">
+<body class="nav-sidebar floating nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -103,24 +105,16 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/provider.html">PROVIDER</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/care_site.html">omop cdm</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/provider.html">PROVIDER</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
@@ -132,6 +126,15 @@ ul.task-list li input[type="checkbox"] {
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">omop cdm</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../omop_data_dict/care_site.html" class="sidebar-item-text sidebar-link">
@@ -320,42 +323,18 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#description" id="toc-description" class="nav-link active" data-scroll-target="#description">Description</a>
-  <ul class="collapse">
-  <li><a href="#provider_id" id="toc-provider_id" class="nav-link" data-scroll-target="#provider_id">PROVIDER_ID</a></li>
-  <li><a href="#provider_name" id="toc-provider_name" class="nav-link" data-scroll-target="#provider_name">PROVIDER_NAME</a></li>
-  <li><a href="#npi" id="toc-npi" class="nav-link" data-scroll-target="#npi">NPI</a></li>
-  <li><a href="#dea" id="toc-dea" class="nav-link" data-scroll-target="#dea">DEA</a></li>
-  <li><a href="#specialty_concept_id" id="toc-specialty_concept_id" class="nav-link" data-scroll-target="#specialty_concept_id">SPECIALTY_CONCEPT_ID</a></li>
-  <li><a href="#care_site_id" id="toc-care_site_id" class="nav-link" data-scroll-target="#care_site_id">CARE_SITE_ID</a></li>
-  <li><a href="#year_of_birth" id="toc-year_of_birth" class="nav-link" data-scroll-target="#year_of_birth">YEAR_OF_BIRTH</a></li>
-  <li><a href="#gender_concept_id" id="toc-gender_concept_id" class="nav-link" data-scroll-target="#gender_concept_id">GENDER_CONCEPT_ID</a></li>
-  <li><a href="#provider_source_value" id="toc-provider_source_value" class="nav-link" data-scroll-target="#provider_source_value">PROVIDER_SOURCE_VALUE</a></li>
-  <li><a href="#specialty_source_value" id="toc-specialty_source_value" class="nav-link" data-scroll-target="#specialty_source_value">SPECIALTY_SOURCE_VALUE</a></li>
-  <li><a href="#specialty_source_concept_id" id="toc-specialty_source_concept_id" class="nav-link" data-scroll-target="#specialty_source_concept_id">SPECIALTY_SOURCE_CONCEPT_ID</a></li>
-  <li><a href="#gender_source_value" id="toc-gender_source_value" class="nav-link" data-scroll-target="#gender_source_value">GENDER_SOURCE_VALUE</a></li>
-  <li><a href="#gender_source_concept_id" id="toc-gender_source_concept_id" class="nav-link" data-scroll-target="#gender_source_concept_id">GENDER_SOURCE_CONCEPT_ID</a></li>
-  <li><a href="#trace_id-stanford-construct-for-traceability" id="toc-trace_id-stanford-construct-for-traceability" class="nav-link" data-scroll-target="#trace_id-stanford-construct-for-traceability">TRACE_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</a></li>
-  <li><a href="#unit_id-stanford-construct-for-traceability" id="toc-unit_id-stanford-construct-for-traceability" class="nav-link" data-scroll-target="#unit_id-stanford-construct-for-traceability">UNIT_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</a></li>
-  <li><a href="#load_table_id-stanford-construct-for-traceability" id="toc-load_table_id-stanford-construct-for-traceability" class="nav-link" data-scroll-target="#load_table_id-stanford-construct-for-traceability">LOAD_TABLE_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/provider.html">PROVIDER</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/care_site.html">omop cdm</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/provider.html">PROVIDER</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">PROVIDER</h1>
 </div>
@@ -374,159 +353,197 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="description" class="level2">
-<h2 class="anchored" data-anchor-id="description">Description</h2>
 <p>Standarized Health System Data Tables</p>
-<p>The following columns are available in this table:</p>
-<section id="provider_id" class="level3">
-<h3 class="anchored" data-anchor-id="provider_id">PROVIDER_ID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong> No</li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A unique identifier for each Provider.</li>
-</ul>
+<section id="table-columns" class="level3">
+<h3 class="anchored" data-anchor-id="table-columns">Table Columns</h3>
+<div class="table-responsive">
+<table class="table-hover caption-top table">
+<colgroup>
+<col style="width: 65%">
+<col style="width: 11%">
+<col style="width: 8%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">field</th>
+<th style="text-align: left;">type</th>
+<th style="text-align: left;">phi</th>
+<th style="text-align: left;">required</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">provider_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">provider_name</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">npi</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">dea</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">specialty_concept_id</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">care_site_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">year_of_birth</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">gender_concept_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">provider_source_value</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">specialty_source_value</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">specialty_source_concept_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">gender_source_value</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">gender_source_concept_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">trace_id (Stanford construct for traceability)</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">unit_id (Stanford construct for traceability)</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">load_table_id (Stanford construct for traceability)</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">No</td>
+</tr>
+</tbody>
+</table>
+</div>
 </section>
-<section id="provider_name" class="level3">
-<h3 class="anchored" data-anchor-id="provider_name">PROVIDER_NAME</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> No</li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> A description of the Healthcare Provider.</li>
-</ul>
+<section id="columns-description" class="level3">
+<h3 class="anchored" data-anchor-id="columns-description">Columns Description</h3>
+<section id="provider_id" class="level5">
+<h5 class="anchored" data-anchor-id="provider_id">provider_id</h5>
+<p>A unique identifier for each Provider.</p>
 </section>
-<section id="npi" class="level3">
-<h3 class="anchored" data-anchor-id="npi">NPI</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> No</li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> The National Provider Identifier (NPI) of the providers in the US by the Centers for Medicare and Medicaid Services (CMS).</li>
-</ul>
+<section id="provider_name" class="level5">
+<h5 class="anchored" data-anchor-id="provider_name">provider_name</h5>
+<p>A description of the Healthcare Provider.</p>
 </section>
-<section id="dea" class="level3">
-<h3 class="anchored" data-anchor-id="dea">DEA</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> No</li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> This is the identifier issued by the DEA, a US federal agency, that allows a provider to write prescriptions for controlled substances.</li>
-</ul>
+<section id="npi" class="level5">
+<h5 class="anchored" data-anchor-id="npi">npi</h5>
+<p>The National Provider Identifier (NPI) of the providers in the US by the Centers for Medicare and Medicaid Services (CMS).</p>
 </section>
-<section id="specialty_concept_id" class="level3">
-<h3 class="anchored" data-anchor-id="specialty_concept_id">SPECIALTY_CONCEPT_ID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong> No</li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> This is the CARE_SITE_ID for the location that the provider primarily practices in.</li>
-</ul>
+<section id="dea" class="level5">
+<h5 class="anchored" data-anchor-id="dea">dea</h5>
+<p>This is the identifier issued by the DEA, a US federal agency, that allows a provider to write prescriptions for controlled substances.</p>
 </section>
-<section id="care_site_id" class="level3">
-<h3 class="anchored" data-anchor-id="care_site_id">CARE_SITE_ID</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> No</li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> This field either represents the most common specialty that occurs in the data or the most specific concept that represents all specialties listed, should the provider have more than one.</li>
-</ul>
+<section id="specialty_concept_id" class="level5">
+<h5 class="anchored" data-anchor-id="specialty_concept_id">specialty_concept_id</h5>
+<p>This is the CARE_SITE_ID for the location that the provider primarily practices in.</p>
 </section>
-<section id="year_of_birth" class="level3">
-<h3 class="anchored" data-anchor-id="year_of_birth">YEAR_OF_BIRTH</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> No</li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> The year of birth of the Provider.</li>
-</ul>
+<section id="care_site_id" class="level5">
+<h5 class="anchored" data-anchor-id="care_site_id">care_site_id</h5>
+<p>This field either represents the most common specialty that occurs in the data or the most specific concept that represents all specialties listed, should the provider have more than one.</p>
 </section>
-<section id="gender_concept_id" class="level3">
-<h3 class="anchored" data-anchor-id="gender_concept_id">GENDER_CONCEPT_ID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong> No</li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> The gender of the Provider.</li>
-</ul>
+<section id="year_of_birth" class="level5">
+<h5 class="anchored" data-anchor-id="year_of_birth">year_of_birth</h5>
+<p>The year of birth of the Provider.</p>
 </section>
-<section id="provider_source_value" class="level3">
-<h3 class="anchored" data-anchor-id="provider_source_value">PROVIDER_SOURCE_VALUE</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> Yes</li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> The identifier used for the Provider in the source data, stored here for reference.</li>
-</ul>
+<section id="gender_concept_id" class="level5">
+<h5 class="anchored" data-anchor-id="gender_concept_id">gender_concept_id</h5>
+<p>The gender of the Provider.</p>
 </section>
-<section id="specialty_source_value" class="level3">
-<h3 class="anchored" data-anchor-id="specialty_source_value">SPECIALTY_SOURCE_VALUE</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> No</li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> The source code for the Provider specialty as it appears in the source data, stored here for reference.</li>
-</ul>
+<section id="provider_source_value" class="level5">
+<h5 class="anchored" data-anchor-id="provider_source_value">provider_source_value</h5>
+<p>The identifier used for the Provider in the source data, stored here for reference.</p>
 </section>
-<section id="specialty_source_concept_id" class="level3">
-<h3 class="anchored" data-anchor-id="specialty_source_concept_id">SPECIALTY_SOURCE_CONCEPT_ID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong> No</li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A foreign key to a Concept that refers to the code used in the source.</li>
-</ul>
+<section id="specialty_source_value" class="level5">
+<h5 class="anchored" data-anchor-id="specialty_source_value">specialty_source_value</h5>
+<p>The source code for the Provider specialty as it appears in the source data, stored here for reference.</p>
 </section>
-<section id="gender_source_value" class="level3">
-<h3 class="anchored" data-anchor-id="gender_source_value">GENDER_SOURCE_VALUE</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> No</li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> The gender code for the Provider as it appears in the source data, stored here for reference.</li>
-</ul>
+<section id="specialty_source_concept_id" class="level5">
+<h5 class="anchored" data-anchor-id="specialty_source_concept_id">specialty_source_concept_id</h5>
+<p>A foreign key to a Concept that refers to the code used in the source.</p>
 </section>
-<section id="gender_source_concept_id" class="level3">
-<h3 class="anchored" data-anchor-id="gender_source_concept_id">GENDER_SOURCE_CONCEPT_ID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong> No</li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A foreign key to a Concept that refers to the code used in the source for storing the providers gender</li>
-</ul>
+<section id="gender_source_value" class="level5">
+<h5 class="anchored" data-anchor-id="gender_source_value">gender_source_value</h5>
+<p>The gender code for the Provider as it appears in the source data, stored here for reference.</p>
 </section>
-<section id="trace_id-stanford-construct-for-traceability" class="level3">
-<h3 class="anchored" data-anchor-id="trace_id-stanford-construct-for-traceability">TRACE_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> No</li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> A json string with the primary keys of the table in Clarity where most of the information for a given row is sourced</li>
-</ul>
+<section id="gender_source_concept_id" class="level5">
+<h5 class="anchored" data-anchor-id="gender_source_concept_id">gender_source_concept_id</h5>
+<p>A foreign key to a Concept that refers to the code used in the source for storing the providers gender</p>
 </section>
-<section id="unit_id-stanford-construct-for-traceability" class="level3">
-<h3 class="anchored" data-anchor-id="unit_id-stanford-construct-for-traceability">UNIT_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> No</li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> Is a reference for the position in the ETL code resposible for bringing in this row data</li>
-</ul>
+<section id="trace_id-stanford-construct-for-traceability" class="level5">
+<h5 class="anchored" data-anchor-id="trace_id-stanford-construct-for-traceability">trace_id (stanford construct for traceability)</h5>
+<p>A json string with the primary keys of the table in Clarity where most of the information for a given row is sourced</p>
 </section>
-<section id="load_table_id-stanford-construct-for-traceability" class="level3">
-<h3 class="anchored" data-anchor-id="load_table_id-stanford-construct-for-traceability">LOAD_TABLE_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> No</li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> Is the name of the primary Clarity table in Clarity where most of the information for a given row is sourced</li>
-</ul>
+<section id="unit_id-stanford-construct-for-traceability" class="level5">
+<h5 class="anchored" data-anchor-id="unit_id-stanford-construct-for-traceability">unit_id (stanford construct for traceability)</h5>
+<p>Is a reference for the position in the ETL code resposible for bringing in this row data</p>
+</section>
+<section id="load_table_id-stanford-construct-for-traceability" class="level5">
+<h5 class="anchored" data-anchor-id="load_table_id-stanford-construct-for-traceability">load_table_id (stanford construct for traceability)</h5>
+<p>Is the name of the primary Clarity table in Clarity where most of the information for a given row is sourced</p>
 
 
 </section>
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -947,6 +964,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../omop_data_dict/procedure_occurrence.html" class="pagination-link" aria-label="PROCEDURE_OCCURRENCE">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">PROCEDURE_OCCURRENCE</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../omop_data_dict/relationship.html" class="pagination-link" aria-label="RELATIONSHIP">
+        <span class="nav-page-text">RELATIONSHIP</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 

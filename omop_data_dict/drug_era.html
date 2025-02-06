@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../omop_data_dict/drug_exposure.html" rel="next">
+<link href="../omop_data_dict/domain.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -71,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-sidebar docked nav-fixed">
+<body class="nav-sidebar floating nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -103,24 +105,16 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/drug_era.html">DRUG_ERA</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/care_site.html">omop cdm</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/drug_era.html">DRUG_ERA</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
@@ -132,6 +126,15 @@ ul.task-list li input[type="checkbox"] {
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">omop cdm</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../omop_data_dict/care_site.html" class="sidebar-item-text sidebar-link">
@@ -320,36 +323,18 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#description" id="toc-description" class="nav-link active" data-scroll-target="#description">Description</a>
-  <ul class="collapse">
-  <li><a href="#drug_era_id" id="toc-drug_era_id" class="nav-link" data-scroll-target="#drug_era_id">DRUG_ERA_ID</a></li>
-  <li><a href="#person_id" id="toc-person_id" class="nav-link" data-scroll-target="#person_id">PERSON_ID</a></li>
-  <li><a href="#drug_concept_id" id="toc-drug_concept_id" class="nav-link" data-scroll-target="#drug_concept_id">DRUG_CONCEPT_ID</a></li>
-  <li><a href="#drug_era_start_date" id="toc-drug_era_start_date" class="nav-link" data-scroll-target="#drug_era_start_date">DRUG_ERA_START_DATE</a></li>
-  <li><a href="#drug_era_end_date" id="toc-drug_era_end_date" class="nav-link" data-scroll-target="#drug_era_end_date">DRUG_ERA_END_DATE</a></li>
-  <li><a href="#drug_exposure_count" id="toc-drug_exposure_count" class="nav-link" data-scroll-target="#drug_exposure_count">DRUG_EXPOSURE_COUNT</a></li>
-  <li><a href="#gap_days" id="toc-gap_days" class="nav-link" data-scroll-target="#gap_days">GAP_DAYS</a></li>
-  <li><a href="#trace_id-stanford-construct-for-traceability" id="toc-trace_id-stanford-construct-for-traceability" class="nav-link" data-scroll-target="#trace_id-stanford-construct-for-traceability">TRACE_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</a></li>
-  <li><a href="#unit_id-stanford-construct-for-traceability" id="toc-unit_id-stanford-construct-for-traceability" class="nav-link" data-scroll-target="#unit_id-stanford-construct-for-traceability">UNIT_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</a></li>
-  <li><a href="#load_table_id-stanford-construct-for-traceability" id="toc-load_table_id-stanford-construct-for-traceability" class="nav-link" data-scroll-target="#load_table_id-stanford-construct-for-traceability">LOAD_TABLE_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/drug_era.html">DRUG_ERA</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/care_site.html">omop cdm</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/drug_era.html">DRUG_ERA</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">DRUG_ERA</h1>
 </div>
@@ -368,105 +353,137 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="description" class="level2">
-<h2 class="anchored" data-anchor-id="description">Description</h2>
 <p>Standardized Derived Elements</p>
-<p>The following columns are available in this table:</p>
-<section id="drug_era_id" class="level3">
-<h3 class="anchored" data-anchor-id="drug_era_id">DRUG_ERA_ID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A unique identifier for each Drug Era.</li>
-</ul>
+<section id="table-columns" class="level3">
+<h3 class="anchored" data-anchor-id="table-columns">Table Columns</h3>
+<div class="table-responsive">
+<table class="table-hover caption-top table">
+<colgroup>
+<col style="width: 64%">
+<col style="width: 12%">
+<col style="width: 8%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">field</th>
+<th style="text-align: left;">type</th>
+<th style="text-align: left;">phi</th>
+<th style="text-align: left;">required</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">drug_era_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">person_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">drug_concept_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">drug_era_start_date</td>
+<td style="text-align: left;">DATETIME</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">drug_era_end_date</td>
+<td style="text-align: left;">DATETIME</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">drug_exposure_count</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">gap_days</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">trace_id (Stanford construct for traceability)</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">unit_id (Stanford construct for traceability)</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">load_table_id (Stanford construct for traceability)</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+</tbody>
+</table>
+</div>
 </section>
-<section id="person_id" class="level3">
-<h3 class="anchored" data-anchor-id="person_id">PERSON_ID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A foreign key identifier to the Person who is subjected to the drug during the Drug Era. The demographic details of that Person are stored in the PERSON table.</li>
-</ul>
+<section id="columns-description" class="level3">
+<h3 class="anchored" data-anchor-id="columns-description">Columns Description</h3>
+<section id="drug_era_id" class="level5">
+<h5 class="anchored" data-anchor-id="drug_era_id">drug_era_id</h5>
+<p>A unique identifier for each Drug Era.</p>
 </section>
-<section id="drug_concept_id" class="level3">
-<h3 class="anchored" data-anchor-id="drug_concept_id">DRUG_CONCEPT_ID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A foreign key that refers to a Standard Concept identifier in the Standardized Vocabularies for the Ingredient Concept.</li>
-</ul>
+<section id="person_id" class="level5">
+<h5 class="anchored" data-anchor-id="person_id">person_id</h5>
+<p>A foreign key identifier to the Person who is subjected to the drug during the Drug Era. The demographic details of that Person are stored in the PERSON table.</p>
 </section>
-<section id="drug_era_start_date" class="level3">
-<h3 class="anchored" data-anchor-id="drug_era_start_date">DRUG_ERA_START_DATE</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong> Yes</li>
-<li><strong>Data Type:</strong> DATETIME</li>
-<li><strong>Description:</strong> The start date for the Drug Era constructed from the individual instances of Drug Exposures. It is the start date of the very first chronologically recorded instance of conutilization of a Drug.</li>
-</ul>
+<section id="drug_concept_id" class="level5">
+<h5 class="anchored" data-anchor-id="drug_concept_id">drug_concept_id</h5>
+<p>A foreign key that refers to a Standard Concept identifier in the Standardized Vocabularies for the Ingredient Concept.</p>
 </section>
-<section id="drug_era_end_date" class="level3">
-<h3 class="anchored" data-anchor-id="drug_era_end_date">DRUG_ERA_END_DATE</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong> Yes</li>
-<li><strong>Data Type:</strong> DATETIME</li>
-<li><strong>Description:</strong> The end date for the drug era constructed from the individual instance of drug exposures. It is the end date of the final continuously recorded instance of utilization of a drug.</li>
-</ul>
+<section id="drug_era_start_date" class="level5">
+<h5 class="anchored" data-anchor-id="drug_era_start_date">drug_era_start_date</h5>
+<p>The start date for the Drug Era constructed from the individual instances of Drug Exposures. It is the start date of the very first chronologically recorded instance of conutilization of a Drug.</p>
 </section>
-<section id="drug_exposure_count" class="level3">
-<h3 class="anchored" data-anchor-id="drug_exposure_count">DRUG_EXPOSURE_COUNT</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> The number of individual Drug Exposure occurrences used to construct the Drug Era.</li>
-</ul>
+<section id="drug_era_end_date" class="level5">
+<h5 class="anchored" data-anchor-id="drug_era_end_date">drug_era_end_date</h5>
+<p>The end date for the drug era constructed from the individual instance of drug exposures. It is the end date of the final continuously recorded instance of utilization of a drug.</p>
 </section>
-<section id="gap_days" class="level3">
-<h3 class="anchored" data-anchor-id="gap_days">GAP_DAYS</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> The number of days that are not covered by drug_exposure records that were used to make up the era record.</li>
-</ul>
+<section id="drug_exposure_count" class="level5">
+<h5 class="anchored" data-anchor-id="drug_exposure_count">drug_exposure_count</h5>
+<p>The number of individual Drug Exposure occurrences used to construct the Drug Era.</p>
 </section>
-<section id="trace_id-stanford-construct-for-traceability" class="level3">
-<h3 class="anchored" data-anchor-id="trace_id-stanford-construct-for-traceability">TRACE_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> Yes</li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> A json string with the primary keys of the table in Clarity where most of the information for a given row is sourced</li>
-</ul>
+<section id="gap_days" class="level5">
+<h5 class="anchored" data-anchor-id="gap_days">gap_days</h5>
+<p>The number of days that are not covered by drug_exposure records that were used to make up the era record.</p>
 </section>
-<section id="unit_id-stanford-construct-for-traceability" class="level3">
-<h3 class="anchored" data-anchor-id="unit_id-stanford-construct-for-traceability">UNIT_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> Is a reference for the position in the ETL code responsible for bringing in this row data</li>
-</ul>
+<section id="trace_id-stanford-construct-for-traceability" class="level5">
+<h5 class="anchored" data-anchor-id="trace_id-stanford-construct-for-traceability">trace_id (stanford construct for traceability)</h5>
+<p>A json string with the primary keys of the table in Clarity where most of the information for a given row is sourced</p>
 </section>
-<section id="load_table_id-stanford-construct-for-traceability" class="level3">
-<h3 class="anchored" data-anchor-id="load_table_id-stanford-construct-for-traceability">LOAD_TABLE_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> Is the name of the primary Clarity table in Clarity where most of the information for a given row is sourced</li>
-</ul>
+<section id="unit_id-stanford-construct-for-traceability" class="level5">
+<h5 class="anchored" data-anchor-id="unit_id-stanford-construct-for-traceability">unit_id (stanford construct for traceability)</h5>
+<p>Is a reference for the position in the ETL code responsible for bringing in this row data</p>
+</section>
+<section id="load_table_id-stanford-construct-for-traceability" class="level5">
+<h5 class="anchored" data-anchor-id="load_table_id-stanford-construct-for-traceability">load_table_id (stanford construct for traceability)</h5>
+<p>Is the name of the primary Clarity table in Clarity where most of the information for a given row is sourced</p>
 
 
 </section>
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -887,6 +904,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../omop_data_dict/domain.html" class="pagination-link" aria-label="DOMAIN">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">DOMAIN</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../omop_data_dict/drug_exposure.html" class="pagination-link" aria-label="DRUG_EXPOSURE">
+        <span class="nav-page-text">DRUG_EXPOSURE</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 

@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../omop_data_dict/measurement.html" rel="next">
+<link href="../omop_data_dict/image_occurrence.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -71,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-sidebar docked nav-fixed">
+<body class="nav-sidebar floating nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -103,24 +105,16 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/location.html">LOCATION</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/care_site.html">omop cdm</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/location.html">LOCATION</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
@@ -132,6 +126,15 @@ ul.task-list li input[type="checkbox"] {
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">omop cdm</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../omop_data_dict/care_site.html" class="sidebar-item-text sidebar-link">
@@ -320,39 +323,18 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#description" id="toc-description" class="nav-link active" data-scroll-target="#description">Description</a>
-  <ul class="collapse">
-  <li><a href="#location_id" id="toc-location_id" class="nav-link" data-scroll-target="#location_id">LOCATION_ID</a></li>
-  <li><a href="#address_1" id="toc-address_1" class="nav-link" data-scroll-target="#address_1">ADDRESS_1</a></li>
-  <li><a href="#address_2" id="toc-address_2" class="nav-link" data-scroll-target="#address_2">ADDRESS_2</a></li>
-  <li><a href="#city" id="toc-city" class="nav-link" data-scroll-target="#city">CITY</a></li>
-  <li><a href="#state" id="toc-state" class="nav-link" data-scroll-target="#state">STATE</a></li>
-  <li><a href="#zip" id="toc-zip" class="nav-link" data-scroll-target="#zip">ZIP</a></li>
-  <li><a href="#county" id="toc-county" class="nav-link" data-scroll-target="#county">COUNTY</a></li>
-  <li><a href="#location_source_value" id="toc-location_source_value" class="nav-link" data-scroll-target="#location_source_value">LOCATION_SOURCE_VALUE</a></li>
-  <li><a href="#unit_id-stanford-construct-for-traceability" id="toc-unit_id-stanford-construct-for-traceability" class="nav-link" data-scroll-target="#unit_id-stanford-construct-for-traceability">UNIT_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</a></li>
-  <li><a href="#load_table_id-stanford-construct-for-traceability" id="toc-load_table_id-stanford-construct-for-traceability" class="nav-link" data-scroll-target="#load_table_id-stanford-construct-for-traceability">LOAD_TABLE_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</a></li>
-  <li><a href="#census_block_group-available-only-at-stanford" id="toc-census_block_group-available-only-at-stanford" class="nav-link" data-scroll-target="#census_block_group-available-only-at-stanford">_CENSUS_BLOCK_GROUP (AVAILABLE ONLY AT STANFORD)</a></li>
-  <li><a href="#latitude-available-only-at-stanford" id="toc-latitude-available-only-at-stanford" class="nav-link" data-scroll-target="#latitude-available-only-at-stanford">LATITUDE (AVAILABLE ONLY AT STANFORD)</a></li>
-  <li><a href="#longitude-available-only-at-stanford" id="toc-longitude-available-only-at-stanford" class="nav-link" data-scroll-target="#longitude-available-only-at-stanford">LONGITUDE (AVAILABLE ONLY AT STANFORD)</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/location.html">LOCATION</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/care_site.html">omop cdm</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/location.html">LOCATION</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">LOCATION</h1>
 </div>
@@ -371,132 +353,167 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="description" class="level2">
-<h2 class="anchored" data-anchor-id="description">Description</h2>
 <p>Standarized Health System Data Tables</p>
-<p>The following columns are available in this table:</p>
-<section id="location_id" class="level3">
-<h3 class="anchored" data-anchor-id="location_id">LOCATION_ID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong> No</li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A unique identifier for each geographic location.</li>
-</ul>
+<section id="table-columns" class="level3">
+<h3 class="anchored" data-anchor-id="table-columns">Table Columns</h3>
+<div class="table-responsive">
+<table class="table-hover caption-top table">
+<colgroup>
+<col style="width: 65%">
+<col style="width: 11%">
+<col style="width: 8%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">field</th>
+<th style="text-align: left;">type</th>
+<th style="text-align: left;">phi</th>
+<th style="text-align: left;">required</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">location_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">address_1</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">address_2</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">city</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">state</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">zip</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">county</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">location_source_value</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">unit_id (Stanford construct for traceability)</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">load_table_id (Stanford construct for traceability)</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">_census_block_group (available only at Stanford)</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">latitude (available only at Stanford)</td>
+<td style="text-align: left;">FLOAT</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">longitude (available only at Stanford)</td>
+<td style="text-align: left;">FLOAT</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">No</td>
+</tr>
+</tbody>
+</table>
+</div>
 </section>
-<section id="address_1" class="level3">
-<h3 class="anchored" data-anchor-id="address_1">ADDRESS_1</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> Yes</li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> The address field 1, typically used for the street address, as it appears in the source data.</li>
-</ul>
+<section id="columns-description" class="level3">
+<h3 class="anchored" data-anchor-id="columns-description">Columns Description</h3>
+<section id="location_id" class="level5">
+<h5 class="anchored" data-anchor-id="location_id">location_id</h5>
+<p>A unique identifier for each geographic location.</p>
 </section>
-<section id="address_2" class="level3">
-<h3 class="anchored" data-anchor-id="address_2">ADDRESS_2</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> Yes</li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> The address field 2, typically used for additional detail such as buildings, suites, floors, as it appears in the source data.</li>
-</ul>
+<section id="address_1" class="level5">
+<h5 class="anchored" data-anchor-id="address_1">address_1</h5>
+<p>The address field 1, typically used for the street address, as it appears in the source data.</p>
 </section>
-<section id="city" class="level3">
-<h3 class="anchored" data-anchor-id="city">CITY</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> Yes</li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> The city field as it appears in the source data.</li>
-</ul>
+<section id="address_2" class="level5">
+<h5 class="anchored" data-anchor-id="address_2">address_2</h5>
+<p>The address field 2, typically used for additional detail such as buildings, suites, floors, as it appears in the source data.</p>
 </section>
-<section id="state" class="level3">
-<h3 class="anchored" data-anchor-id="state">STATE</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> Yes</li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> The state field as it appears in the source data.</li>
-</ul>
+<section id="city" class="level5">
+<h5 class="anchored" data-anchor-id="city">city</h5>
+<p>The city field as it appears in the source data.</p>
 </section>
-<section id="zip" class="level3">
-<h3 class="anchored" data-anchor-id="zip">ZIP</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> Yes</li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> The 5 digit zip or postal code of the locatin address</li>
-</ul>
+<section id="state" class="level5">
+<h5 class="anchored" data-anchor-id="state">state</h5>
+<p>The state field as it appears in the source data.</p>
 </section>
-<section id="county" class="level3">
-<h3 class="anchored" data-anchor-id="county">COUNTY</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> No</li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> The name of the county.</li>
-</ul>
+<section id="zip" class="level5">
+<h5 class="anchored" data-anchor-id="zip">zip</h5>
+<p>The 5 digit zip or postal code of the locatin address</p>
 </section>
-<section id="location_source_value" class="level3">
-<h3 class="anchored" data-anchor-id="location_source_value">LOCATION_SOURCE_VALUE</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> Yes</li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> The MRN|DOB of the person this location corresponds to</li>
-</ul>
+<section id="county" class="level5">
+<h5 class="anchored" data-anchor-id="county">county</h5>
+<p>The name of the county.</p>
 </section>
-<section id="unit_id-stanford-construct-for-traceability" class="level3">
-<h3 class="anchored" data-anchor-id="unit_id-stanford-construct-for-traceability">UNIT_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> No</li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> Is a reference for the position in the ETL code responsible for bringing in this row level data</li>
-</ul>
+<section id="location_source_value" class="level5">
+<h5 class="anchored" data-anchor-id="location_source_value">location_source_value</h5>
+<p>The MRN|DOB of the person this location corresponds to</p>
 </section>
-<section id="load_table_id-stanford-construct-for-traceability" class="level3">
-<h3 class="anchored" data-anchor-id="load_table_id-stanford-construct-for-traceability">LOAD_TABLE_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> No</li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> A json string with the primary keys of the table in Clarity where most of the information for a given row is sourced</li>
-</ul>
+<section id="unit_id-stanford-construct-for-traceability" class="level5">
+<h5 class="anchored" data-anchor-id="unit_id-stanford-construct-for-traceability">unit_id (stanford construct for traceability)</h5>
+<p>Is a reference for the position in the ETL code responsible for bringing in this row level data</p>
 </section>
-<section id="census_block_group-available-only-at-stanford" class="level3">
-<h3 class="anchored" data-anchor-id="census_block_group-available-only-at-stanford">_CENSUS_BLOCK_GROUP (AVAILABLE ONLY AT STANFORD)</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> Yes</li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> The census block group as indicated by United States Census Bureau API for this address location</li>
-</ul>
+<section id="load_table_id-stanford-construct-for-traceability" class="level5">
+<h5 class="anchored" data-anchor-id="load_table_id-stanford-construct-for-traceability">load_table_id (stanford construct for traceability)</h5>
+<p>A json string with the primary keys of the table in Clarity where most of the information for a given row is sourced</p>
 </section>
-<section id="latitude-available-only-at-stanford" class="level3">
-<h3 class="anchored" data-anchor-id="latitude-available-only-at-stanford">LATITUDE (AVAILABLE ONLY AT STANFORD)</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> Yes</li>
-<li><strong>Data Type:</strong> FLOAT</li>
-<li><strong>Description:</strong> latitude of the address if available</li>
-</ul>
+<section id="census_block_group-available-only-at-stanford" class="level5">
+<h5 class="anchored" data-anchor-id="census_block_group-available-only-at-stanford">_census_block_group (available only at stanford)</h5>
+<p>The census block group as indicated by United States Census Bureau API for this address location</p>
 </section>
-<section id="longitude-available-only-at-stanford" class="level3">
-<h3 class="anchored" data-anchor-id="longitude-available-only-at-stanford">LONGITUDE (AVAILABLE ONLY AT STANFORD)</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> Yes</li>
-<li><strong>Data Type:</strong> FLOAT</li>
-<li><strong>Description:</strong> longitude of the address if available</li>
-</ul>
+<section id="latitude-available-only-at-stanford" class="level5">
+<h5 class="anchored" data-anchor-id="latitude-available-only-at-stanford">latitude (available only at stanford)</h5>
+<p>latitude of the address if available</p>
+</section>
+<section id="longitude-available-only-at-stanford" class="level5">
+<h5 class="anchored" data-anchor-id="longitude-available-only-at-stanford">longitude (available only at stanford)</h5>
+<p>longitude of the address if available</p>
 
 
 </section>
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -917,6 +934,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../omop_data_dict/image_occurrence.html" class="pagination-link" aria-label="IMAGE_OCCURRENCE">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">IMAGE_OCCURRENCE</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../omop_data_dict/measurement.html" class="pagination-link" aria-label="MEASUREMENT">
+        <span class="nav-page-text">MEASUREMENT</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 

@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../omop_data_dict/drug_strength.html" rel="next">
+<link href="../omop_data_dict/drug_era.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -71,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-sidebar docked nav-fixed">
+<body class="nav-sidebar floating nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -103,24 +105,16 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/drug_exposure.html">DRUG_EXPOSURE</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/care_site.html">omop cdm</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/drug_exposure.html">DRUG_EXPOSURE</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
@@ -132,6 +126,15 @@ ul.task-list li input[type="checkbox"] {
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">omop cdm</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../omop_data_dict/care_site.html" class="sidebar-item-text sidebar-link">
@@ -320,52 +323,18 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#description" id="toc-description" class="nav-link active" data-scroll-target="#description">Description</a>
-  <ul class="collapse">
-  <li><a href="#drug_exposure_id" id="toc-drug_exposure_id" class="nav-link" data-scroll-target="#drug_exposure_id">DRUG_EXPOSURE_ID</a></li>
-  <li><a href="#person_id" id="toc-person_id" class="nav-link" data-scroll-target="#person_id">PERSON_ID</a></li>
-  <li><a href="#drug_concept_id" id="toc-drug_concept_id" class="nav-link" data-scroll-target="#drug_concept_id">DRUG_CONCEPT_ID</a></li>
-  <li><a href="#drug_exposure_start_date" id="toc-drug_exposure_start_date" class="nav-link" data-scroll-target="#drug_exposure_start_date">DRUG_EXPOSURE_START_DATE</a></li>
-  <li><a href="#drug_exposure_start_datetime" id="toc-drug_exposure_start_datetime" class="nav-link" data-scroll-target="#drug_exposure_start_datetime">DRUG_EXPOSURE_START_DATETIME</a></li>
-  <li><a href="#drug_exposure_end_date" id="toc-drug_exposure_end_date" class="nav-link" data-scroll-target="#drug_exposure_end_date">DRUG_EXPOSURE_END_DATE</a></li>
-  <li><a href="#drug_exposure_end_datetime" id="toc-drug_exposure_end_datetime" class="nav-link" data-scroll-target="#drug_exposure_end_datetime">DRUG_EXPOSURE_END_DATETIME</a></li>
-  <li><a href="#verbatim_end_date" id="toc-verbatim_end_date" class="nav-link" data-scroll-target="#verbatim_end_date">VERBATIM_END_DATE</a></li>
-  <li><a href="#drug_type_concept_id" id="toc-drug_type_concept_id" class="nav-link" data-scroll-target="#drug_type_concept_id">DRUG_TYPE_CONCEPT_ID</a></li>
-  <li><a href="#stop_reason" id="toc-stop_reason" class="nav-link" data-scroll-target="#stop_reason">STOP_REASON</a></li>
-  <li><a href="#refills" id="toc-refills" class="nav-link" data-scroll-target="#refills">REFILLS</a></li>
-  <li><a href="#quantity" id="toc-quantity" class="nav-link" data-scroll-target="#quantity">QUANTITY</a></li>
-  <li><a href="#days_supply" id="toc-days_supply" class="nav-link" data-scroll-target="#days_supply">DAYS_SUPPLY</a></li>
-  <li><a href="#sig" id="toc-sig" class="nav-link" data-scroll-target="#sig">SIG</a></li>
-  <li><a href="#route_concept_id" id="toc-route_concept_id" class="nav-link" data-scroll-target="#route_concept_id">ROUTE_CONCEPT_ID</a></li>
-  <li><a href="#lot_number" id="toc-lot_number" class="nav-link" data-scroll-target="#lot_number">LOT_NUMBER</a></li>
-  <li><a href="#provider_id" id="toc-provider_id" class="nav-link" data-scroll-target="#provider_id">PROVIDER_ID</a></li>
-  <li><a href="#visit_occurrence_id" id="toc-visit_occurrence_id" class="nav-link" data-scroll-target="#visit_occurrence_id">VISIT_OCCURRENCE_ID</a></li>
-  <li><a href="#visit_detail_id" id="toc-visit_detail_id" class="nav-link" data-scroll-target="#visit_detail_id">VISIT_DETAIL_ID</a></li>
-  <li><a href="#drug_source_value" id="toc-drug_source_value" class="nav-link" data-scroll-target="#drug_source_value">DRUG_SOURCE_VALUE</a></li>
-  <li><a href="#drug_source_concept_id" id="toc-drug_source_concept_id" class="nav-link" data-scroll-target="#drug_source_concept_id">DRUG_SOURCE_CONCEPT_ID</a></li>
-  <li><a href="#route_source_value" id="toc-route_source_value" class="nav-link" data-scroll-target="#route_source_value">ROUTE_SOURCE_VALUE</a></li>
-  <li><a href="#dose_unit_source_value" id="toc-dose_unit_source_value" class="nav-link" data-scroll-target="#dose_unit_source_value">DOSE_UNIT_SOURCE_VALUE</a></li>
-  <li><a href="#trace_id-stanford-construct-for-traceability" id="toc-trace_id-stanford-construct-for-traceability" class="nav-link" data-scroll-target="#trace_id-stanford-construct-for-traceability">TRACE_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</a></li>
-  <li><a href="#unit_id-stanford-construct-for-traceability" id="toc-unit_id-stanford-construct-for-traceability" class="nav-link" data-scroll-target="#unit_id-stanford-construct-for-traceability">UNIT_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</a></li>
-  <li><a href="#load_table_id-stanford-construct-for-traceability" id="toc-load_table_id-stanford-construct-for-traceability" class="nav-link" data-scroll-target="#load_table_id-stanford-construct-for-traceability">LOAD_TABLE_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/drug_exposure.html">DRUG_EXPOSURE</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/care_site.html">omop cdm</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/drug_exposure.html">DRUG_EXPOSURE</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">DRUG_EXPOSURE</h1>
 </div>
@@ -384,249 +353,297 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="description" class="level2">
-<h2 class="anchored" data-anchor-id="description">Description</h2>
 <p>Standard Clinical Data Table</p>
-<p>The following columns are available in this table:</p>
-<section id="drug_exposure_id" class="level3">
-<h3 class="anchored" data-anchor-id="drug_exposure_id">DRUG_EXPOSURE_ID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A system-generated unique identifier for each Drug utilization event.</li>
-</ul>
+<section id="table-columns" class="level3">
+<h3 class="anchored" data-anchor-id="table-columns">Table Columns</h3>
+<div class="table-responsive">
+<table class="table-hover caption-top table">
+<colgroup>
+<col style="width: 64%">
+<col style="width: 12%">
+<col style="width: 8%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">field</th>
+<th style="text-align: left;">type</th>
+<th style="text-align: left;">phi</th>
+<th style="text-align: left;">required</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">drug_exposure_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">person_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">drug_concept_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">drug_exposure_start_date</td>
+<td style="text-align: left;">DATE</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">drug_exposure_start_datetime</td>
+<td style="text-align: left;">DATETIME</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">drug_exposure_end_date</td>
+<td style="text-align: left;">DATE</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">drug_exposure_end_datetime</td>
+<td style="text-align: left;">DATETIME</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">verbatim_end_date</td>
+<td style="text-align: left;">DATE</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">drug_type_concept_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">stop_reason</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">refills</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">quantity</td>
+<td style="text-align: left;">FLOAT</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">days_supply</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">sig</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">route_concept_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">lot_number</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">provider_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">visit_occurrence_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">visit_detail_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">drug_source_value</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">drug_source_concept_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">route_source_value</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">dose_unit_source_value</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">trace_id (Stanford construct for traceability)</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">unit_id (Stanford construct for traceability)</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">load_table_id (Stanford construct for traceability)</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+</tbody>
+</table>
+</div>
 </section>
-<section id="person_id" class="level3">
-<h3 class="anchored" data-anchor-id="person_id">PERSON_ID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A foreign key identifier to the Person who is subjected to the Drug. The demographic details of that Person are stored in the PERSON table.</li>
-</ul>
+<section id="columns-description" class="level3">
+<h3 class="anchored" data-anchor-id="columns-description">Columns Description</h3>
+<section id="drug_exposure_id" class="level5">
+<h5 class="anchored" data-anchor-id="drug_exposure_id">drug_exposure_id</h5>
+<p>A system-generated unique identifier for each Drug utilization event.</p>
 </section>
-<section id="drug_concept_id" class="level3">
-<h3 class="anchored" data-anchor-id="drug_concept_id">DRUG_CONCEPT_ID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> The standard concept_id belonging to the ‘Drug’ domain.that the drug_source_value maps to.</li>
-</ul>
+<section id="person_id" class="level5">
+<h5 class="anchored" data-anchor-id="person_id">person_id</h5>
+<p>A foreign key identifier to the Person who is subjected to the Drug. The demographic details of that Person are stored in the PERSON table.</p>
 </section>
-<section id="drug_exposure_start_date" class="level3">
-<h3 class="anchored" data-anchor-id="drug_exposure_start_date">DRUG_EXPOSURE_START_DATE</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> Yes</li>
-<li><strong>Data Type:</strong> DATE</li>
-<li><strong>Description:</strong> The start date for the current instance of Drug utilization. Valid entries include a start date of a prescription, the date a prescription was filled, or the date on which a Drug administration procedure was recorded.</li>
-</ul>
+<section id="drug_concept_id" class="level5">
+<h5 class="anchored" data-anchor-id="drug_concept_id">drug_concept_id</h5>
+<p>The standard concept_id belonging to the ‘Drug’ domain.that the drug_source_value maps to.</p>
 </section>
-<section id="drug_exposure_start_datetime" class="level3">
-<h3 class="anchored" data-anchor-id="drug_exposure_start_datetime">DRUG_EXPOSURE_START_DATETIME</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong> Yes</li>
-<li><strong>Data Type:</strong> DATETIME</li>
-<li><strong>Description:</strong> The start date and time for the current instance of Drug utilization. Valid entries include a start datetime of a prescription, the date and time a prescription was filled, or the date and time on which a Drug administration procedure was recorded.</li>
-</ul>
+<section id="drug_exposure_start_date" class="level5">
+<h5 class="anchored" data-anchor-id="drug_exposure_start_date">drug_exposure_start_date</h5>
+<p>The start date for the current instance of Drug utilization. Valid entries include a start date of a prescription, the date a prescription was filled, or the date on which a Drug administration procedure was recorded.</p>
 </section>
-<section id="drug_exposure_end_date" class="level3">
-<h3 class="anchored" data-anchor-id="drug_exposure_end_date">DRUG_EXPOSURE_END_DATE</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> Yes</li>
-<li><strong>Data Type:</strong> DATE</li>
-<li><strong>Description:</strong> The end date for the current instance of Drug utilization. Depending on different sources, it could be a known or an inferred date and denotes the last day at which the patient was still exposed to Drug.</li>
-</ul>
+<section id="drug_exposure_start_datetime" class="level5">
+<h5 class="anchored" data-anchor-id="drug_exposure_start_datetime">drug_exposure_start_datetime</h5>
+<p>The start date and time for the current instance of Drug utilization. Valid entries include a start datetime of a prescription, the date and time a prescription was filled, or the date and time on which a Drug administration procedure was recorded.</p>
 </section>
-<section id="drug_exposure_end_datetime" class="level3">
-<h3 class="anchored" data-anchor-id="drug_exposure_end_datetime">DRUG_EXPOSURE_END_DATETIME</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong> Yes</li>
-<li><strong>Data Type:</strong> DATETIME</li>
-<li><strong>Description:</strong> The end date and time for the current instance of Drug utilization. Depending on different sources, it could be a known or an inferred date and time and denotes the last day at which the patient was still exposed to Drug.</li>
-</ul>
+<section id="drug_exposure_end_date" class="level5">
+<h5 class="anchored" data-anchor-id="drug_exposure_end_date">drug_exposure_end_date</h5>
+<p>The end date for the current instance of Drug utilization. Depending on different sources, it could be a known or an inferred date and denotes the last day at which the patient was still exposed to Drug.</p>
 </section>
-<section id="verbatim_end_date" class="level3">
-<h3 class="anchored" data-anchor-id="verbatim_end_date">VERBATIM_END_DATE</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> Yes</li>
-<li><strong>Data Type:</strong> DATE</li>
-<li><strong>Description:</strong> The known end date of a drug_exposure as provided by the source.</li>
-</ul>
+<section id="drug_exposure_end_datetime" class="level5">
+<h5 class="anchored" data-anchor-id="drug_exposure_end_datetime">drug_exposure_end_datetime</h5>
+<p>The end date and time for the current instance of Drug utilization. Depending on different sources, it could be a known or an inferred date and time and denotes the last day at which the patient was still exposed to Drug.</p>
 </section>
-<section id="drug_type_concept_id" class="level3">
-<h3 class="anchored" data-anchor-id="drug_type_concept_id">DRUG_TYPE_CONCEPT_ID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> The type_concept_id can be used to delineate between prescriptions written vs.&nbsp;prescriptions dispensed vs.&nbsp;medication history vs.&nbsp;patient-reported exposure, etc.</li>
-</ul>
+<section id="verbatim_end_date" class="level5">
+<h5 class="anchored" data-anchor-id="verbatim_end_date">verbatim_end_date</h5>
+<p>The known end date of a drug_exposure as provided by the source.</p>
 </section>
-<section id="stop_reason" class="level3">
-<h3 class="anchored" data-anchor-id="stop_reason">STOP_REASON</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> The reason the Drug was stopped. Reasons include regimen completed, changed, removed, etc.</li>
-</ul>
+<section id="drug_type_concept_id" class="level5">
+<h5 class="anchored" data-anchor-id="drug_type_concept_id">drug_type_concept_id</h5>
+<p>The type_concept_id can be used to delineate between prescriptions written vs.&nbsp;prescriptions dispensed vs.&nbsp;medication history vs.&nbsp;patient-reported exposure, etc.</p>
 </section>
-<section id="refills" class="level3">
-<h3 class="anchored" data-anchor-id="refills">REFILLS</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> This is only filled in when the record is coming from a prescription written. This field is meant to represent intended refills at time of the prescription.</li>
-</ul>
+<section id="stop_reason" class="level5">
+<h5 class="anchored" data-anchor-id="stop_reason">stop_reason</h5>
+<p>The reason the Drug was stopped. Reasons include regimen completed, changed, removed, etc.</p>
 </section>
-<section id="quantity" class="level3">
-<h3 class="anchored" data-anchor-id="quantity">QUANTITY</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> FLOAT</li>
-<li><strong>Description:</strong> The quantity of drug as recorded in the original prescription or dispensing record.</li>
-</ul>
+<section id="refills" class="level5">
+<h5 class="anchored" data-anchor-id="refills">refills</h5>
+<p>This is only filled in when the record is coming from a prescription written. This field is meant to represent intended refills at time of the prescription.</p>
 </section>
-<section id="days_supply" class="level3">
-<h3 class="anchored" data-anchor-id="days_supply">DAYS_SUPPLY</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> The number of days of supply of the medication as prescribed. This reflects the intention of the provider for the length of exposure.</li>
-</ul>
+<section id="quantity" class="level5">
+<h5 class="anchored" data-anchor-id="quantity">quantity</h5>
+<p>The quantity of drug as recorded in the original prescription or dispensing record.</p>
 </section>
-<section id="sig" class="level3">
-<h3 class="anchored" data-anchor-id="sig">SIG</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> Yes</li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> This is the verbatim instruction for the drug as written by the provider.</li>
-</ul>
+<section id="days_supply" class="level5">
+<h5 class="anchored" data-anchor-id="days_supply">days_supply</h5>
+<p>The number of days of supply of the medication as prescribed. This reflects the intention of the provider for the length of exposure.</p>
 </section>
-<section id="route_concept_id" class="level3">
-<h3 class="anchored" data-anchor-id="route_concept_id">ROUTE_CONCEPT_ID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A foreign key that refers to a Standard Concept identifier in the Standardized Vocabularies reflecting the route of administration and belonging to the ‘Route’ domain.</li>
-</ul>
+<section id="sig" class="level5">
+<h5 class="anchored" data-anchor-id="sig">sig</h5>
+<p>This is the verbatim instruction for the drug as written by the provider.</p>
 </section>
-<section id="lot_number" class="level3">
-<h3 class="anchored" data-anchor-id="lot_number">LOT_NUMBER</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> An identifier assigned to a particular quantity or lot of Drug product from the manufacturer.</li>
-</ul>
+<section id="route_concept_id" class="level5">
+<h5 class="anchored" data-anchor-id="route_concept_id">route_concept_id</h5>
+<p>A foreign key that refers to a Standard Concept identifier in the Standardized Vocabularies reflecting the route of administration and belonging to the ‘Route’ domain.</p>
 </section>
-<section id="provider_id" class="level3">
-<h3 class="anchored" data-anchor-id="provider_id">PROVIDER_ID</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> The Provider associated with drug record, e.g.&nbsp;the provider who wrote the prescription or the provider who administered the drug.</li>
-</ul>
+<section id="lot_number" class="level5">
+<h5 class="anchored" data-anchor-id="lot_number">lot_number</h5>
+<p>An identifier assigned to a particular quantity or lot of Drug product from the manufacturer.</p>
 </section>
-<section id="visit_occurrence_id" class="level3">
-<h3 class="anchored" data-anchor-id="visit_occurrence_id">VISIT_OCCURRENCE_ID</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> The Visit during which the drug was prescribed, administered or dispensed.</li>
-</ul>
+<section id="provider_id" class="level5">
+<h5 class="anchored" data-anchor-id="provider_id">provider_id</h5>
+<p>The Provider associated with drug record, e.g.&nbsp;the provider who wrote the prescription or the provider who administered the drug.</p>
 </section>
-<section id="visit_detail_id" class="level3">
-<h3 class="anchored" data-anchor-id="visit_detail_id">VISIT_DETAIL_ID</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A foreign key to the Visit Detail in the VISIT_DETAIL table during which the Drug Exposure was initiated.</li>
-</ul>
+<section id="visit_occurrence_id" class="level5">
+<h5 class="anchored" data-anchor-id="visit_occurrence_id">visit_occurrence_id</h5>
+<p>The Visit during which the drug was prescribed, administered or dispensed.</p>
 </section>
-<section id="drug_source_value" class="level3">
-<h3 class="anchored" data-anchor-id="drug_source_value">DRUG_SOURCE_VALUE</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> The source code for the Drug as it appears in the source data. This code is mapped to a Standard Drug concept in the Standardized Vocabularies and the original code is, stored here for reference.</li>
-</ul>
+<section id="visit_detail_id" class="level5">
+<h5 class="anchored" data-anchor-id="visit_detail_id">visit_detail_id</h5>
+<p>A foreign key to the Visit Detail in the VISIT_DETAIL table during which the Drug Exposure was initiated.</p>
 </section>
-<section id="drug_source_concept_id" class="level3">
-<h3 class="anchored" data-anchor-id="drug_source_concept_id">DRUG_SOURCE_CONCEPT_ID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A foreign key to a Drug Concept that refers to the code used in the source.</li>
-</ul>
+<section id="drug_source_value" class="level5">
+<h5 class="anchored" data-anchor-id="drug_source_value">drug_source_value</h5>
+<p>The source code for the Drug as it appears in the source data. This code is mapped to a Standard Drug concept in the Standardized Vocabularies and the original code is, stored here for reference.</p>
 </section>
-<section id="route_source_value" class="level3">
-<h3 class="anchored" data-anchor-id="route_source_value">ROUTE_SOURCE_VALUE</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> The information about the route of administration as detailed in the source.</li>
-</ul>
+<section id="drug_source_concept_id" class="level5">
+<h5 class="anchored" data-anchor-id="drug_source_concept_id">drug_source_concept_id</h5>
+<p>A foreign key to a Drug Concept that refers to the code used in the source.</p>
 </section>
-<section id="dose_unit_source_value" class="level3">
-<h3 class="anchored" data-anchor-id="dose_unit_source_value">DOSE_UNIT_SOURCE_VALUE</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> The information about the dose unit as detailed in the source.</li>
-</ul>
+<section id="route_source_value" class="level5">
+<h5 class="anchored" data-anchor-id="route_source_value">route_source_value</h5>
+<p>The information about the route of administration as detailed in the source.</p>
 </section>
-<section id="trace_id-stanford-construct-for-traceability" class="level3">
-<h3 class="anchored" data-anchor-id="trace_id-stanford-construct-for-traceability">TRACE_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> Yes</li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> A json string with the primary keys of the table in Clarity where most of the information for a given row is sourced</li>
-</ul>
+<section id="dose_unit_source_value" class="level5">
+<h5 class="anchored" data-anchor-id="dose_unit_source_value">dose_unit_source_value</h5>
+<p>The information about the dose unit as detailed in the source.</p>
 </section>
-<section id="unit_id-stanford-construct-for-traceability" class="level3">
-<h3 class="anchored" data-anchor-id="unit_id-stanford-construct-for-traceability">UNIT_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> Is a reference for the position in the ETL code resposible for bringing in this row data</li>
-</ul>
+<section id="trace_id-stanford-construct-for-traceability" class="level5">
+<h5 class="anchored" data-anchor-id="trace_id-stanford-construct-for-traceability">trace_id (stanford construct for traceability)</h5>
+<p>A json string with the primary keys of the table in Clarity where most of the information for a given row is sourced</p>
 </section>
-<section id="load_table_id-stanford-construct-for-traceability" class="level3">
-<h3 class="anchored" data-anchor-id="load_table_id-stanford-construct-for-traceability">LOAD_TABLE_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> Is the name of the primary Clarity table in Clarity where most of the information for a given row is sourced</li>
-</ul>
+<section id="unit_id-stanford-construct-for-traceability" class="level5">
+<h5 class="anchored" data-anchor-id="unit_id-stanford-construct-for-traceability">unit_id (stanford construct for traceability)</h5>
+<p>Is a reference for the position in the ETL code resposible for bringing in this row data</p>
+</section>
+<section id="load_table_id-stanford-construct-for-traceability" class="level5">
+<h5 class="anchored" data-anchor-id="load_table_id-stanford-construct-for-traceability">load_table_id (stanford construct for traceability)</h5>
+<p>Is the name of the primary Clarity table in Clarity where most of the information for a given row is sourced</p>
 
 
 </section>
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -1047,6 +1064,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../omop_data_dict/drug_era.html" class="pagination-link" aria-label="DRUG_ERA">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">DRUG_ERA</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../omop_data_dict/drug_strength.html" class="pagination-link" aria-label="DRUG_STRENGTH">
+        <span class="nav-page-text">DRUG_STRENGTH</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 

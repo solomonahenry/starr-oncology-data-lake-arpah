@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../omop_data_dict/concept.html" rel="next">
+<link href="../omop_data_dict/care_site.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -71,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-sidebar docked nav-fixed">
+<body class="nav-sidebar floating nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -103,24 +105,16 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/cdm_source.html">CDM_SOURCE</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/care_site.html">omop cdm</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/cdm_source.html">CDM_SOURCE</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
@@ -132,6 +126,15 @@ ul.task-list li input[type="checkbox"] {
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">omop cdm</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../omop_data_dict/care_site.html" class="sidebar-item-text sidebar-link">
@@ -320,38 +323,18 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#description" id="toc-description" class="nav-link active" data-scroll-target="#description">Description</a>
-  <ul class="collapse">
-  <li><a href="#cdm_source_name" id="toc-cdm_source_name" class="nav-link" data-scroll-target="#cdm_source_name">CDM_SOURCE_NAME</a></li>
-  <li><a href="#cdm_source_abbreviation" id="toc-cdm_source_abbreviation" class="nav-link" data-scroll-target="#cdm_source_abbreviation">CDM_SOURCE_ABBREVIATION</a></li>
-  <li><a href="#cdm_holder" id="toc-cdm_holder" class="nav-link" data-scroll-target="#cdm_holder">CDM_HOLDER</a></li>
-  <li><a href="#source_description" id="toc-source_description" class="nav-link" data-scroll-target="#source_description">SOURCE_DESCRIPTION</a></li>
-  <li><a href="#source_documentation_reference" id="toc-source_documentation_reference" class="nav-link" data-scroll-target="#source_documentation_reference">SOURCE_DOCUMENTATION_REFERENCE</a></li>
-  <li><a href="#cdm_etl_reference" id="toc-cdm_etl_reference" class="nav-link" data-scroll-target="#cdm_etl_reference">CDM_ETL_REFERENCE</a></li>
-  <li><a href="#source_release_date" id="toc-source_release_date" class="nav-link" data-scroll-target="#source_release_date">SOURCE_RELEASE_DATE</a></li>
-  <li><a href="#cdm_release_date" id="toc-cdm_release_date" class="nav-link" data-scroll-target="#cdm_release_date">CDM_RELEASE_DATE</a></li>
-  <li><a href="#cdm_version" id="toc-cdm_version" class="nav-link" data-scroll-target="#cdm_version">CDM_VERSION</a></li>
-  <li><a href="#vocabulary_version" id="toc-vocabulary_version" class="nav-link" data-scroll-target="#vocabulary_version">VOCABULARY_VERSION</a></li>
-  <li><a href="#unit_id-stanford-construct-for-traceability" id="toc-unit_id-stanford-construct-for-traceability" class="nav-link" data-scroll-target="#unit_id-stanford-construct-for-traceability">UNIT_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</a></li>
-  <li><a href="#load_table_id-stanford-construct-for-traceability" id="toc-load_table_id-stanford-construct-for-traceability" class="nav-link" data-scroll-target="#load_table_id-stanford-construct-for-traceability">LOAD_TABLE_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/cdm_source.html">CDM_SOURCE</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/care_site.html">omop cdm</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/cdm_source.html">CDM_SOURCE</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">CDM_SOURCE</h1>
 </div>
@@ -370,123 +353,157 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="description" class="level2">
-<h2 class="anchored" data-anchor-id="description">Description</h2>
 <p>Standardized Metadata Table</p>
-<p>The following columns are available in this table:</p>
-<section id="cdm_source_name" class="level3">
-<h3 class="anchored" data-anchor-id="cdm_source_name">CDM_SOURCE_NAME</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> The full name of the various raw datasources,</li>
-</ul>
+<section id="table-columns" class="level3">
+<h3 class="anchored" data-anchor-id="table-columns">Table Columns</h3>
+<div class="table-responsive">
+<table class="table-hover caption-top table">
+<colgroup>
+<col style="width: 66%">
+<col style="width: 10%">
+<col style="width: 8%">
+<col style="width: 15%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">field</th>
+<th style="text-align: left;">type</th>
+<th style="text-align: left;">phi</th>
+<th style="text-align: left;">required</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">cdm_source_name</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">cdm_source_abbreviation</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">cdm_holder</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">source_description</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">source_documentation_reference</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">cdm_etl_reference</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">source_release_date</td>
+<td style="text-align: left;">DATE</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">cdm_release_date</td>
+<td style="text-align: left;">DATE</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">cdm_version</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">vocabulary_version</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">unit_id (Stanford construct for traceability)</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">load_table_id (Stanford construct for traceability)</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+</tbody>
+</table>
+</div>
 </section>
-<section id="cdm_source_abbreviation" class="level3">
-<h3 class="anchored" data-anchor-id="cdm_source_abbreviation">CDM_SOURCE_ABBREVIATION</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> An abbreviation of the CDM source.</li>
-</ul>
+<section id="columns-description" class="level3">
+<h3 class="anchored" data-anchor-id="columns-description">Columns Description</h3>
+<section id="cdm_source_name" class="level5">
+<h5 class="anchored" data-anchor-id="cdm_source_name">cdm_source_name</h5>
+<p>The full name of the various raw datasources,</p>
 </section>
-<section id="cdm_holder" class="level3">
-<h3 class="anchored" data-anchor-id="cdm_holder">CDM_HOLDER</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> The name of the organization responsible for the development of the CDM instance</li>
-</ul>
+<section id="cdm_source_abbreviation" class="level5">
+<h5 class="anchored" data-anchor-id="cdm_source_abbreviation">cdm_source_abbreviation</h5>
+<p>An abbreviation of the CDM source.</p>
 </section>
-<section id="source_description" class="level3">
-<h3 class="anchored" data-anchor-id="source_description">SOURCE_DESCRIPTION</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> Primary IRB</li>
-</ul>
+<section id="cdm_holder" class="level5">
+<h5 class="anchored" data-anchor-id="cdm_holder">cdm_holder</h5>
+<p>The name of the organization responsible for the development of the CDM instance</p>
 </section>
-<section id="source_documentation_reference" class="level3">
-<h3 class="anchored" data-anchor-id="source_documentation_reference">SOURCE_DOCUMENTATION_REFERENCE</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> URL or other external reference to location of source documentation</li>
-</ul>
+<section id="source_description" class="level5">
+<h5 class="anchored" data-anchor-id="source_description">source_description</h5>
+<p>Primary IRB</p>
 </section>
-<section id="cdm_etl_reference" class="level3">
-<h3 class="anchored" data-anchor-id="cdm_etl_reference">CDM_ETL_REFERENCE</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> URL or other external reference to location of ETL specification documentation and ETL source code</li>
-</ul>
+<section id="source_documentation_reference" class="level5">
+<h5 class="anchored" data-anchor-id="source_documentation_reference">source_documentation_reference</h5>
+<p>URL or other external reference to location of source documentation</p>
 </section>
-<section id="source_release_date" class="level3">
-<h3 class="anchored" data-anchor-id="source_release_date">SOURCE_RELEASE_DATE</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> DATE</li>
-<li><strong>Description:</strong> The date for which the source data are most current, such as the last day of data capture</li>
-</ul>
+<section id="cdm_etl_reference" class="level5">
+<h5 class="anchored" data-anchor-id="cdm_etl_reference">cdm_etl_reference</h5>
+<p>URL or other external reference to location of ETL specification documentation and ETL source code</p>
 </section>
-<section id="cdm_release_date" class="level3">
-<h3 class="anchored" data-anchor-id="cdm_release_date">CDM_RELEASE_DATE</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> DATE</li>
-<li><strong>Description:</strong> The date when the CDM was instantiated</li>
-</ul>
+<section id="source_release_date" class="level5">
+<h5 class="anchored" data-anchor-id="source_release_date">source_release_date</h5>
+<p>The date for which the source data are most current, such as the last day of data capture</p>
 </section>
-<section id="cdm_version" class="level3">
-<h3 class="anchored" data-anchor-id="cdm_version">CDM_VERSION</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> The version of CDM used</li>
-</ul>
+<section id="cdm_release_date" class="level5">
+<h5 class="anchored" data-anchor-id="cdm_release_date">cdm_release_date</h5>
+<p>The date when the CDM was instantiated</p>
 </section>
-<section id="vocabulary_version" class="level3">
-<h3 class="anchored" data-anchor-id="vocabulary_version">VOCABULARY_VERSION</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> The version of the vocabulary used</li>
-</ul>
+<section id="cdm_version" class="level5">
+<h5 class="anchored" data-anchor-id="cdm_version">cdm_version</h5>
+<p>The version of CDM used</p>
 </section>
-<section id="unit_id-stanford-construct-for-traceability" class="level3">
-<h3 class="anchored" data-anchor-id="unit_id-stanford-construct-for-traceability">UNIT_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> Is a reference for the position in the ETL code responsible for bringing in this row level data</li>
-</ul>
+<section id="vocabulary_version" class="level5">
+<h5 class="anchored" data-anchor-id="vocabulary_version">vocabulary_version</h5>
+<p>The version of the vocabulary used</p>
 </section>
-<section id="load_table_id-stanford-construct-for-traceability" class="level3">
-<h3 class="anchored" data-anchor-id="load_table_id-stanford-construct-for-traceability">LOAD_TABLE_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> A json string with the primary keys of the table in Clarity where most of the information for a given row is sourced</li>
-</ul>
+<section id="unit_id-stanford-construct-for-traceability" class="level5">
+<h5 class="anchored" data-anchor-id="unit_id-stanford-construct-for-traceability">unit_id (stanford construct for traceability)</h5>
+<p>Is a reference for the position in the ETL code responsible for bringing in this row level data</p>
+</section>
+<section id="load_table_id-stanford-construct-for-traceability" class="level5">
+<h5 class="anchored" data-anchor-id="load_table_id-stanford-construct-for-traceability">load_table_id (stanford construct for traceability)</h5>
+<p>A json string with the primary keys of the table in Clarity where most of the information for a given row is sourced</p>
 
 
 </section>
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -907,6 +924,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../omop_data_dict/care_site.html" class="pagination-link" aria-label="CARE_SITE">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">CARE_SITE</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../omop_data_dict/concept.html" class="pagination-link" aria-label="CONCEPT">
+        <span class="nav-page-text">CONCEPT</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 

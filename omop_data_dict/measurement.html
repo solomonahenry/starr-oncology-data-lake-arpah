@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../omop_data_dict/metadata.html" rel="next">
+<link href="../omop_data_dict/location.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -71,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-sidebar docked nav-fixed">
+<body class="nav-sidebar floating nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -103,24 +105,16 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/measurement.html">MEASUREMENT</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/care_site.html">omop cdm</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/measurement.html">MEASUREMENT</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
@@ -132,6 +126,15 @@ ul.task-list li input[type="checkbox"] {
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">omop cdm</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../omop_data_dict/care_site.html" class="sidebar-item-text sidebar-link">
@@ -320,49 +323,18 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#description" id="toc-description" class="nav-link active" data-scroll-target="#description">Description</a>
-  <ul class="collapse">
-  <li><a href="#measurement_id" id="toc-measurement_id" class="nav-link" data-scroll-target="#measurement_id">MEASUREMENT_ID</a></li>
-  <li><a href="#person_id" id="toc-person_id" class="nav-link" data-scroll-target="#person_id">PERSON_ID</a></li>
-  <li><a href="#measurement_concept_id" id="toc-measurement_concept_id" class="nav-link" data-scroll-target="#measurement_concept_id">MEASUREMENT_CONCEPT_ID</a></li>
-  <li><a href="#measurement_date" id="toc-measurement_date" class="nav-link" data-scroll-target="#measurement_date">MEASUREMENT_DATE</a></li>
-  <li><a href="#measurement_datetime" id="toc-measurement_datetime" class="nav-link" data-scroll-target="#measurement_datetime">MEASUREMENT_DATETIME</a></li>
-  <li><a href="#measurement_time" id="toc-measurement_time" class="nav-link" data-scroll-target="#measurement_time">MEASUREMENT_TIME</a></li>
-  <li><a href="#measurement_type_concept_id" id="toc-measurement_type_concept_id" class="nav-link" data-scroll-target="#measurement_type_concept_id">MEASUREMENT_TYPE_CONCEPT_ID</a></li>
-  <li><a href="#operator_concept_id" id="toc-operator_concept_id" class="nav-link" data-scroll-target="#operator_concept_id">OPERATOR_CONCEPT_ID</a></li>
-  <li><a href="#value_as_number" id="toc-value_as_number" class="nav-link" data-scroll-target="#value_as_number">VALUE_AS_NUMBER</a></li>
-  <li><a href="#value_as_concept_id" id="toc-value_as_concept_id" class="nav-link" data-scroll-target="#value_as_concept_id">VALUE_AS_CONCEPT_ID</a></li>
-  <li><a href="#unit_concept_id" id="toc-unit_concept_id" class="nav-link" data-scroll-target="#unit_concept_id">UNIT_CONCEPT_ID</a></li>
-  <li><a href="#range_low" id="toc-range_low" class="nav-link" data-scroll-target="#range_low">RANGE_LOW</a></li>
-  <li><a href="#range_high" id="toc-range_high" class="nav-link" data-scroll-target="#range_high">RANGE_HIGH</a></li>
-  <li><a href="#provider_id" id="toc-provider_id" class="nav-link" data-scroll-target="#provider_id">PROVIDER_ID</a></li>
-  <li><a href="#visit_occurrence_id" id="toc-visit_occurrence_id" class="nav-link" data-scroll-target="#visit_occurrence_id">VISIT_OCCURRENCE_ID</a></li>
-  <li><a href="#visit_detail_id" id="toc-visit_detail_id" class="nav-link" data-scroll-target="#visit_detail_id">VISIT_DETAIL_ID</a></li>
-  <li><a href="#measurement_source_value" id="toc-measurement_source_value" class="nav-link" data-scroll-target="#measurement_source_value">MEASUREMENT_SOURCE_VALUE</a></li>
-  <li><a href="#measurement_source_concept_id" id="toc-measurement_source_concept_id" class="nav-link" data-scroll-target="#measurement_source_concept_id">MEASUREMENT_SOURCE_CONCEPT_ID</a></li>
-  <li><a href="#unit_source_value" id="toc-unit_source_value" class="nav-link" data-scroll-target="#unit_source_value">UNIT_SOURCE_VALUE</a></li>
-  <li><a href="#value_source_value" id="toc-value_source_value" class="nav-link" data-scroll-target="#value_source_value">VALUE_SOURCE_VALUE</a></li>
-  <li><a href="#trace_id-stanford-construct-for-traceability" id="toc-trace_id-stanford-construct-for-traceability" class="nav-link" data-scroll-target="#trace_id-stanford-construct-for-traceability">TRACE_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</a></li>
-  <li><a href="#unit_id-stanford-construct-for-traceability" id="toc-unit_id-stanford-construct-for-traceability" class="nav-link" data-scroll-target="#unit_id-stanford-construct-for-traceability">UNIT_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</a></li>
-  <li><a href="#load_table_id-stanford-construct-for-traceability" id="toc-load_table_id-stanford-construct-for-traceability" class="nav-link" data-scroll-target="#load_table_id-stanford-construct-for-traceability">LOAD_TABLE_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/measurement.html">MEASUREMENT</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/care_site.html">omop cdm</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/measurement.html">MEASUREMENT</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">MEASUREMENT</h1>
 </div>
@@ -381,222 +353,267 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="description" class="level2">
-<h2 class="anchored" data-anchor-id="description">Description</h2>
 <p>Standard Clinical Data Table</p>
-<p>The following columns are available in this table:</p>
-<section id="measurement_id" class="level3">
-<h3 class="anchored" data-anchor-id="measurement_id">MEASUREMENT_ID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A unique identifier for each Measurement.</li>
-</ul>
+<section id="table-columns" class="level3">
+<h3 class="anchored" data-anchor-id="table-columns">Table Columns</h3>
+<div class="table-responsive">
+<table class="table-hover caption-top table">
+<colgroup>
+<col style="width: 64%">
+<col style="width: 12%">
+<col style="width: 8%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">field</th>
+<th style="text-align: left;">type</th>
+<th style="text-align: left;">phi</th>
+<th style="text-align: left;">required</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">measurement_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">person_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">measurement_concept_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">measurement_date</td>
+<td style="text-align: left;">DATE</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">measurement_datetime</td>
+<td style="text-align: left;">DATETIME</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">measurement_time</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">measurement_type_concept_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">operator_concept_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">value_as_number</td>
+<td style="text-align: left;">FLOAT</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">value_as_concept_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">unit_concept_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">range_low</td>
+<td style="text-align: left;">FLOAT</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">range_high</td>
+<td style="text-align: left;">FLOAT</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">provider_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">visit_occurrence_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">visit_detail_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">measurement_source_value</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">measurement_source_concept_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">unit_source_value</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">value_source_value</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">trace_id (Stanford construct for traceability)</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">unit_id (Stanford construct for traceability)</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">load_table_id (Stanford construct for traceability)</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+</tbody>
+</table>
+</div>
 </section>
-<section id="person_id" class="level3">
-<h3 class="anchored" data-anchor-id="person_id">PERSON_ID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A foreign key identifier to the Person about whom the measurement was recorded. The demographic details of that Person are stored in the PERSON table.</li>
-</ul>
+<section id="columns-description" class="level3">
+<h3 class="anchored" data-anchor-id="columns-description">Columns Description</h3>
+<section id="measurement_id" class="level5">
+<h5 class="anchored" data-anchor-id="measurement_id">measurement_id</h5>
+<p>A unique identifier for each Measurement.</p>
 </section>
-<section id="measurement_concept_id" class="level3">
-<h3 class="anchored" data-anchor-id="measurement_concept_id">MEASUREMENT_CONCEPT_ID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> The standard concept_id that the measurement_source_value maps to</li>
-</ul>
+<section id="person_id" class="level5">
+<h5 class="anchored" data-anchor-id="person_id">person_id</h5>
+<p>A foreign key identifier to the Person about whom the measurement was recorded. The demographic details of that Person are stored in the PERSON table.</p>
 </section>
-<section id="measurement_date" class="level3">
-<h3 class="anchored" data-anchor-id="measurement_date">MEASUREMENT_DATE</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> Yes</li>
-<li><strong>Data Type:</strong> DATE</li>
-<li><strong>Description:</strong> The date of the Measurement. If there are multiple dates in the source data associated with a record such as order_date, draw_date, and result_date, we choose the one that is closest to the date the sample was drawn from the patient.</li>
-</ul>
+<section id="measurement_concept_id" class="level5">
+<h5 class="anchored" data-anchor-id="measurement_concept_id">measurement_concept_id</h5>
+<p>The standard concept_id that the measurement_source_value maps to</p>
 </section>
-<section id="measurement_datetime" class="level3">
-<h3 class="anchored" data-anchor-id="measurement_datetime">MEASUREMENT_DATETIME</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong> Yes</li>
-<li><strong>Data Type:</strong> DATETIME</li>
-<li><strong>Description:</strong> The date and time of the Measurement.</li>
-</ul>
+<section id="measurement_date" class="level5">
+<h5 class="anchored" data-anchor-id="measurement_date">measurement_date</h5>
+<p>The date of the Measurement. If there are multiple dates in the source data associated with a record such as order_date, draw_date, and result_date, we choose the one that is closest to the date the sample was drawn from the patient.</p>
 </section>
-<section id="measurement_time" class="level3">
-<h3 class="anchored" data-anchor-id="measurement_time">MEASUREMENT_TIME</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> The time of the Measurement. This is present for backwards compatibility and will be deprecated in an upcoming version</li>
-</ul>
+<section id="measurement_datetime" class="level5">
+<h5 class="anchored" data-anchor-id="measurement_datetime">measurement_datetime</h5>
+<p>The date and time of the Measurement.</p>
 </section>
-<section id="measurement_type_concept_id" class="level3">
-<h3 class="anchored" data-anchor-id="measurement_type_concept_id">MEASUREMENT_TYPE_CONCEPT_ID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> The measurement_type_concept_id that best represents the provenance of the record, for example whether it came from an EHR record or billing claim.</li>
-</ul>
+<section id="measurement_time" class="level5">
+<h5 class="anchored" data-anchor-id="measurement_time">measurement_time</h5>
+<p>The time of the Measurement. This is present for backwards compatibility and will be deprecated in an upcoming version</p>
 </section>
-<section id="operator_concept_id" class="level3">
-<h3 class="anchored" data-anchor-id="operator_concept_id">OPERATOR_CONCEPT_ID</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A foreign key identifier to the predefined Concept in the Standardized Vocabularies reflecting the mathematical operator that is applied to the value_as_number. Operators are &lt;, &lt;=, =, &gt;=, &gt; and these concepts belong to the ‘Meas Value Operator’ domain.</li>
-</ul>
+<section id="measurement_type_concept_id" class="level5">
+<h5 class="anchored" data-anchor-id="measurement_type_concept_id">measurement_type_concept_id</h5>
+<p>The measurement_type_concept_id that best represents the provenance of the record, for example whether it came from an EHR record or billing claim.</p>
 </section>
-<section id="value_as_number" class="level3">
-<h3 class="anchored" data-anchor-id="value_as_number">VALUE_AS_NUMBER</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> FLOAT</li>
-<li><strong>Description:</strong> This is the numerical value of the Result of the Measurement, if available. Note that measurements such as blood pressures will be split into their component parts i.e.&nbsp;one record for systolic, one record for diastolic.</li>
-</ul>
+<section id="operator_concept_id" class="level5">
+<h5 class="anchored" data-anchor-id="operator_concept_id">operator_concept_id</h5>
+<p>A foreign key identifier to the predefined Concept in the Standardized Vocabularies reflecting the mathematical operator that is applied to the value_as_number. Operators are &lt;, &lt;=, =, &gt;=, &gt; and these concepts belong to the ‘Meas Value Operator’ domain.</p>
 </section>
-<section id="value_as_concept_id" class="level3">
-<h3 class="anchored" data-anchor-id="value_as_concept_id">VALUE_AS_CONCEPT_ID</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> If the raw data gives a categorial result for measurements those values are captured and mapped to standard concepts in the ‘Meas Value’ domain.</li>
-</ul>
+<section id="value_as_number" class="level5">
+<h5 class="anchored" data-anchor-id="value_as_number">value_as_number</h5>
+<p>This is the numerical value of the Result of the Measurement, if available. Note that measurements such as blood pressures will be split into their component parts i.e.&nbsp;one record for systolic, one record for diastolic.</p>
 </section>
-<section id="unit_concept_id" class="level3">
-<h3 class="anchored" data-anchor-id="unit_concept_id">UNIT_CONCEPT_ID</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A foreign key to a Standard Concept ID of Measurement Units in the Standardized Vocabularies that belong to the ‘Unit’ domain.</li>
-</ul>
+<section id="value_as_concept_id" class="level5">
+<h5 class="anchored" data-anchor-id="value_as_concept_id">value_as_concept_id</h5>
+<p>If the raw data gives a categorial result for measurements those values are captured and mapped to standard concepts in the ‘Meas Value’ domain.</p>
 </section>
-<section id="range_low" class="level3">
-<h3 class="anchored" data-anchor-id="range_low">RANGE_LOW</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> FLOAT</li>
-<li><strong>Description:</strong> The lower limit of the normal range of the Measurement result. The lower range is assumed to be of the same unit of measure as the Measurement value.</li>
-</ul>
+<section id="unit_concept_id" class="level5">
+<h5 class="anchored" data-anchor-id="unit_concept_id">unit_concept_id</h5>
+<p>A foreign key to a Standard Concept ID of Measurement Units in the Standardized Vocabularies that belong to the ‘Unit’ domain.</p>
 </section>
-<section id="range_high" class="level3">
-<h3 class="anchored" data-anchor-id="range_high">RANGE_HIGH</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> FLOAT</li>
-<li><strong>Description:</strong> The upper limit of the normal range of the Measurement. The upper range is assumed to be of the same unit of measure as the Measurement value.</li>
-</ul>
+<section id="range_low" class="level5">
+<h5 class="anchored" data-anchor-id="range_low">range_low</h5>
+<p>The lower limit of the normal range of the Measurement result. The lower range is assumed to be of the same unit of measure as the Measurement value.</p>
 </section>
-<section id="provider_id" class="level3">
-<h3 class="anchored" data-anchor-id="provider_id">PROVIDER_ID</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A foreign key to the provider in the PROVIDER table who was responsible for initiating or obtaining the measurement.</li>
-</ul>
+<section id="range_high" class="level5">
+<h5 class="anchored" data-anchor-id="range_high">range_high</h5>
+<p>The upper limit of the normal range of the Measurement. The upper range is assumed to be of the same unit of measure as the Measurement value.</p>
 </section>
-<section id="visit_occurrence_id" class="level3">
-<h3 class="anchored" data-anchor-id="visit_occurrence_id">VISIT_OCCURRENCE_ID</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A foreign key to the Visit in the VISIT_OCCURRENCE table during which the Measurement was recorded.</li>
-</ul>
+<section id="provider_id" class="level5">
+<h5 class="anchored" data-anchor-id="provider_id">provider_id</h5>
+<p>A foreign key to the provider in the PROVIDER table who was responsible for initiating or obtaining the measurement.</p>
 </section>
-<section id="visit_detail_id" class="level3">
-<h3 class="anchored" data-anchor-id="visit_detail_id">VISIT_DETAIL_ID</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A foreign key to the Visit Detail in the VISIT_DETAIL table during which the Measurement was recorded.</li>
-</ul>
+<section id="visit_occurrence_id" class="level5">
+<h5 class="anchored" data-anchor-id="visit_occurrence_id">visit_occurrence_id</h5>
+<p>A foreign key to the Visit in the VISIT_OCCURRENCE table during which the Measurement was recorded.</p>
 </section>
-<section id="measurement_source_value" class="level3">
-<h3 class="anchored" data-anchor-id="measurement_source_value">MEASUREMENT_SOURCE_VALUE</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> Yes</li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> The Measurement name as it appears in the source data. This code is mapped to a Standard Concept in the Standardized Vocabularies and the original code is stored here for reference.</li>
-</ul>
+<section id="visit_detail_id" class="level5">
+<h5 class="anchored" data-anchor-id="visit_detail_id">visit_detail_id</h5>
+<p>A foreign key to the Visit Detail in the VISIT_DETAIL table during which the Measurement was recorded.</p>
 </section>
-<section id="measurement_source_concept_id" class="level3">
-<h3 class="anchored" data-anchor-id="measurement_source_concept_id">MEASUREMENT_SOURCE_CONCEPT_ID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A foreign key to a Concept in the Standard Vocabularies that refers to the code used in the source.</li>
-</ul>
+<section id="measurement_source_value" class="level5">
+<h5 class="anchored" data-anchor-id="measurement_source_value">measurement_source_value</h5>
+<p>The Measurement name as it appears in the source data. This code is mapped to a Standard Concept in the Standardized Vocabularies and the original code is stored here for reference.</p>
 </section>
-<section id="unit_source_value" class="level3">
-<h3 class="anchored" data-anchor-id="unit_source_value">UNIT_SOURCE_VALUE</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> The source code for the unit as it appears in the source data. This code is mapped to a standard unit concept in the Standardized Vocabularies and the original code is stored here for reference.</li>
-</ul>
+<section id="measurement_source_concept_id" class="level5">
+<h5 class="anchored" data-anchor-id="measurement_source_concept_id">measurement_source_concept_id</h5>
+<p>A foreign key to a Concept in the Standard Vocabularies that refers to the code used in the source.</p>
 </section>
-<section id="value_source_value" class="level3">
-<h3 class="anchored" data-anchor-id="value_source_value">VALUE_SOURCE_VALUE</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> Yes</li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> The source value associated with the content of the value_as_number or value_as_concept_id as stored in the source data.</li>
-</ul>
+<section id="unit_source_value" class="level5">
+<h5 class="anchored" data-anchor-id="unit_source_value">unit_source_value</h5>
+<p>The source code for the unit as it appears in the source data. This code is mapped to a standard unit concept in the Standardized Vocabularies and the original code is stored here for reference.</p>
 </section>
-<section id="trace_id-stanford-construct-for-traceability" class="level3">
-<h3 class="anchored" data-anchor-id="trace_id-stanford-construct-for-traceability">TRACE_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> Yes</li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> A json string with the primary keys of the table in Clarity where most of the information for a given row is sourced</li>
-</ul>
+<section id="value_source_value" class="level5">
+<h5 class="anchored" data-anchor-id="value_source_value">value_source_value</h5>
+<p>The source value associated with the content of the value_as_number or value_as_concept_id as stored in the source data.</p>
 </section>
-<section id="unit_id-stanford-construct-for-traceability" class="level3">
-<h3 class="anchored" data-anchor-id="unit_id-stanford-construct-for-traceability">UNIT_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> Is a reference for the position in the ETL code resposible for bringing in this row data</li>
-</ul>
+<section id="trace_id-stanford-construct-for-traceability" class="level5">
+<h5 class="anchored" data-anchor-id="trace_id-stanford-construct-for-traceability">trace_id (stanford construct for traceability)</h5>
+<p>A json string with the primary keys of the table in Clarity where most of the information for a given row is sourced</p>
 </section>
-<section id="load_table_id-stanford-construct-for-traceability" class="level3">
-<h3 class="anchored" data-anchor-id="load_table_id-stanford-construct-for-traceability">LOAD_TABLE_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> Is the name of the primary Clarity table in Clarity where most of the information for a given row is sourced</li>
-</ul>
+<section id="unit_id-stanford-construct-for-traceability" class="level5">
+<h5 class="anchored" data-anchor-id="unit_id-stanford-construct-for-traceability">unit_id (stanford construct for traceability)</h5>
+<p>Is a reference for the position in the ETL code resposible for bringing in this row data</p>
+</section>
+<section id="load_table_id-stanford-construct-for-traceability" class="level5">
+<h5 class="anchored" data-anchor-id="load_table_id-stanford-construct-for-traceability">load_table_id (stanford construct for traceability)</h5>
+<p>Is the name of the primary Clarity table in Clarity where most of the information for a given row is sourced</p>
 
 
 </section>
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -1017,6 +1034,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../omop_data_dict/location.html" class="pagination-link" aria-label="LOCATION">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">LOCATION</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../omop_data_dict/metadata.html" class="pagination-link" aria-label="METADATA">
+        <span class="nav-page-text">METADATA</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 

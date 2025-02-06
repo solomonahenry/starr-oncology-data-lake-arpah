@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../omop_data_dict/death.html" rel="next">
+<link href="../omop_data_dict/condition_era.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -71,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-sidebar docked nav-fixed">
+<body class="nav-sidebar floating nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -103,24 +105,16 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/condition_occurrence.html">CONDITION_OCCURRENCE</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/care_site.html">omop cdm</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/condition_occurrence.html">CONDITION_OCCURRENCE</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
@@ -132,6 +126,15 @@ ul.task-list li input[type="checkbox"] {
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">omop cdm</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../omop_data_dict/care_site.html" class="sidebar-item-text sidebar-link">
@@ -320,45 +323,18 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#description" id="toc-description" class="nav-link active" data-scroll-target="#description">Description</a>
-  <ul class="collapse">
-  <li><a href="#condition_occurrence_id" id="toc-condition_occurrence_id" class="nav-link" data-scroll-target="#condition_occurrence_id">CONDITION_OCCURRENCE_ID</a></li>
-  <li><a href="#person_id" id="toc-person_id" class="nav-link" data-scroll-target="#person_id">PERSON_ID</a></li>
-  <li><a href="#condition_concept_id" id="toc-condition_concept_id" class="nav-link" data-scroll-target="#condition_concept_id">CONDITION_CONCEPT_ID</a></li>
-  <li><a href="#condition_start_date" id="toc-condition_start_date" class="nav-link" data-scroll-target="#condition_start_date">CONDITION_START_DATE</a></li>
-  <li><a href="#condition_start_datetime" id="toc-condition_start_datetime" class="nav-link" data-scroll-target="#condition_start_datetime">CONDITION_START_DATETIME</a></li>
-  <li><a href="#condition_end_date" id="toc-condition_end_date" class="nav-link" data-scroll-target="#condition_end_date">CONDITION_END_DATE</a></li>
-  <li><a href="#condition_end_datetime" id="toc-condition_end_datetime" class="nav-link" data-scroll-target="#condition_end_datetime">CONDITION_END_DATETIME</a></li>
-  <li><a href="#condition_type_concept_id" id="toc-condition_type_concept_id" class="nav-link" data-scroll-target="#condition_type_concept_id">CONDITION_TYPE_CONCEPT_ID</a></li>
-  <li><a href="#condition_status_concept_id" id="toc-condition_status_concept_id" class="nav-link" data-scroll-target="#condition_status_concept_id">CONDITION_STATUS_CONCEPT_ID</a></li>
-  <li><a href="#stop_reason" id="toc-stop_reason" class="nav-link" data-scroll-target="#stop_reason">STOP_REASON</a></li>
-  <li><a href="#provider_id" id="toc-provider_id" class="nav-link" data-scroll-target="#provider_id">PROVIDER_ID</a></li>
-  <li><a href="#visit_occurrence_id" id="toc-visit_occurrence_id" class="nav-link" data-scroll-target="#visit_occurrence_id">VISIT_OCCURRENCE_ID</a></li>
-  <li><a href="#visit_detail_id" id="toc-visit_detail_id" class="nav-link" data-scroll-target="#visit_detail_id">VISIT_DETAIL_ID</a></li>
-  <li><a href="#condition_source_value" id="toc-condition_source_value" class="nav-link" data-scroll-target="#condition_source_value">CONDITION_SOURCE_VALUE</a></li>
-  <li><a href="#condition_source_concept_id" id="toc-condition_source_concept_id" class="nav-link" data-scroll-target="#condition_source_concept_id">CONDITION_SOURCE_CONCEPT_ID</a></li>
-  <li><a href="#condition_status_source_value" id="toc-condition_status_source_value" class="nav-link" data-scroll-target="#condition_status_source_value">CONDITION_STATUS_SOURCE_VALUE</a></li>
-  <li><a href="#trace_id-stanford-construct-for-traceability" id="toc-trace_id-stanford-construct-for-traceability" class="nav-link" data-scroll-target="#trace_id-stanford-construct-for-traceability">TRACE_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</a></li>
-  <li><a href="#unit_id-stanford-construct-for-traceability" id="toc-unit_id-stanford-construct-for-traceability" class="nav-link" data-scroll-target="#unit_id-stanford-construct-for-traceability">UNIT_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</a></li>
-  <li><a href="#load_table_id-stanford-construct-for-traceability" id="toc-load_table_id-stanford-construct-for-traceability" class="nav-link" data-scroll-target="#load_table_id-stanford-construct-for-traceability">LOAD_TABLE_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/condition_occurrence.html">CONDITION_OCCURRENCE</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/care_site.html">omop cdm</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/condition_occurrence.html">CONDITION_OCCURRENCE</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">CONDITION_OCCURRENCE</h1>
 </div>
@@ -377,186 +353,227 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="description" class="level2">
-<h2 class="anchored" data-anchor-id="description">Description</h2>
 <p>Standard Clinical Data Table</p>
-<p>The following columns are available in this table:</p>
-<section id="condition_occurrence_id" class="level3">
-<h3 class="anchored" data-anchor-id="condition_occurrence_id">CONDITION_OCCURRENCE_ID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A unique identifier for each Condition Occurrence event.</li>
-</ul>
+<section id="table-columns" class="level3">
+<h3 class="anchored" data-anchor-id="table-columns">Table Columns</h3>
+<div class="table-responsive">
+<table class="table-hover caption-top table">
+<colgroup>
+<col style="width: 64%">
+<col style="width: 12%">
+<col style="width: 8%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">field</th>
+<th style="text-align: left;">type</th>
+<th style="text-align: left;">phi</th>
+<th style="text-align: left;">required</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">condition_occurrence_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">person_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">condition_concept_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">condition_start_date</td>
+<td style="text-align: left;">DATE</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">condition_start_datetime</td>
+<td style="text-align: left;">DATETIME</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">condition_end_date</td>
+<td style="text-align: left;">DATE</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">condition_end_datetime</td>
+<td style="text-align: left;">DATETIME</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">condition_type_concept_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">condition_status_concept_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">stop_reason</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">provider_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">visit_occurrence_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">visit_detail_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">condition_source_value</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">condition_source_concept_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">condition_status_source_value</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">trace_id (Stanford construct for traceability)</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">unit_id (Stanford construct for traceability)</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">load_table_id (Stanford construct for traceability)</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+</tbody>
+</table>
+</div>
 </section>
-<section id="person_id" class="level3">
-<h3 class="anchored" data-anchor-id="person_id">PERSON_ID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A foreign key identifier to the Person who is experiencing the condition. The demographic details of that Person are stored in the PERSON table.</li>
-</ul>
+<section id="columns-description" class="level3">
+<h3 class="anchored" data-anchor-id="columns-description">Columns Description</h3>
+<section id="condition_occurrence_id" class="level5">
+<h5 class="anchored" data-anchor-id="condition_occurrence_id">condition_occurrence_id</h5>
+<p>A unique identifier for each Condition Occurrence event.</p>
 </section>
-<section id="condition_concept_id" class="level3">
-<h3 class="anchored" data-anchor-id="condition_concept_id">CONDITION_CONCEPT_ID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A foreign key that refers to a Standard Concept identifier in the Standardized Vocabularies belonging to the ‘Condition’ domain.</li>
-</ul>
+<section id="person_id" class="level5">
+<h5 class="anchored" data-anchor-id="person_id">person_id</h5>
+<p>A foreign key identifier to the Person who is experiencing the condition. The demographic details of that Person are stored in the PERSON table.</p>
 </section>
-<section id="condition_start_date" class="level3">
-<h3 class="anchored" data-anchor-id="condition_start_date">CONDITION_START_DATE</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> Yes</li>
-<li><strong>Data Type:</strong> DATE</li>
-<li><strong>Description:</strong> The date when the instance of the Condition is recorded.</li>
-</ul>
+<section id="condition_concept_id" class="level5">
+<h5 class="anchored" data-anchor-id="condition_concept_id">condition_concept_id</h5>
+<p>A foreign key that refers to a Standard Concept identifier in the Standardized Vocabularies belonging to the ‘Condition’ domain.</p>
 </section>
-<section id="condition_start_datetime" class="level3">
-<h3 class="anchored" data-anchor-id="condition_start_datetime">CONDITION_START_DATETIME</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong> Yes</li>
-<li><strong>Data Type:</strong> DATETIME</li>
-<li><strong>Description:</strong> The date and time when the instance of the Condition is recorded.</li>
-</ul>
+<section id="condition_start_date" class="level5">
+<h5 class="anchored" data-anchor-id="condition_start_date">condition_start_date</h5>
+<p>The date when the instance of the Condition is recorded.</p>
 </section>
-<section id="condition_end_date" class="level3">
-<h3 class="anchored" data-anchor-id="condition_end_date">CONDITION_END_DATE</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> Yes</li>
-<li><strong>Data Type:</strong> DATE</li>
-<li><strong>Description:</strong> The date when the instance of the Condition is considered to have ended.</li>
-</ul>
+<section id="condition_start_datetime" class="level5">
+<h5 class="anchored" data-anchor-id="condition_start_datetime">condition_start_datetime</h5>
+<p>The date and time when the instance of the Condition is recorded.</p>
 </section>
-<section id="condition_end_datetime" class="level3">
-<h3 class="anchored" data-anchor-id="condition_end_datetime">CONDITION_END_DATETIME</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> Yes</li>
-<li><strong>Data Type:</strong> DATETIME</li>
-<li><strong>Description:</strong> The date when the instance of the Condition is considered to have ended.</li>
-</ul>
+<section id="condition_end_date" class="level5">
+<h5 class="anchored" data-anchor-id="condition_end_date">condition_end_date</h5>
+<p>The date when the instance of the Condition is considered to have ended.</p>
 </section>
-<section id="condition_type_concept_id" class="level3">
-<h3 class="anchored" data-anchor-id="condition_type_concept_id">CONDITION_TYPE_CONCEPT_ID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> This field is used to determine the provenance of the Condition record, as in whether the condition was from an EHR system, insurance claim, registry, or other sources.</li>
-</ul>
+<section id="condition_end_datetime" class="level5">
+<h5 class="anchored" data-anchor-id="condition_end_datetime">condition_end_datetime</h5>
+<p>The date when the instance of the Condition is considered to have ended.</p>
 </section>
-<section id="condition_status_concept_id" class="level3">
-<h3 class="anchored" data-anchor-id="condition_status_concept_id">CONDITION_STATUS_CONCEPT_ID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A foreign key that refers to a Standard Concept identifier in the Standardized Vocabularies reflecting the point of care at which the Condition was diagnosed.</li>
-</ul>
+<section id="condition_type_concept_id" class="level5">
+<h5 class="anchored" data-anchor-id="condition_type_concept_id">condition_type_concept_id</h5>
+<p>This field is used to determine the provenance of the Condition record, as in whether the condition was from an EHR system, insurance claim, registry, or other sources.</p>
 </section>
-<section id="stop_reason" class="level3">
-<h3 class="anchored" data-anchor-id="stop_reason">STOP_REASON</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> The reason that the Condition was no longer present, as indicated in the source data.</li>
-</ul>
+<section id="condition_status_concept_id" class="level5">
+<h5 class="anchored" data-anchor-id="condition_status_concept_id">condition_status_concept_id</h5>
+<p>A foreign key that refers to a Standard Concept identifier in the Standardized Vocabularies reflecting the point of care at which the Condition was diagnosed.</p>
 </section>
-<section id="provider_id" class="level3">
-<h3 class="anchored" data-anchor-id="provider_id">PROVIDER_ID</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A foreign key to the Provider in the PROVIDER table who was responsible for capturing (diagnosing) the Condition.</li>
-</ul>
+<section id="stop_reason" class="level5">
+<h5 class="anchored" data-anchor-id="stop_reason">stop_reason</h5>
+<p>The reason that the Condition was no longer present, as indicated in the source data.</p>
 </section>
-<section id="visit_occurrence_id" class="level3">
-<h3 class="anchored" data-anchor-id="visit_occurrence_id">VISIT_OCCURRENCE_ID</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A foreign key to the visit in the VISIT_OCCURRENCE table during which the Condition was determined (diagnosed).</li>
-</ul>
+<section id="provider_id" class="level5">
+<h5 class="anchored" data-anchor-id="provider_id">provider_id</h5>
+<p>A foreign key to the Provider in the PROVIDER table who was responsible for capturing (diagnosing) the Condition.</p>
 </section>
-<section id="visit_detail_id" class="level3">
-<h3 class="anchored" data-anchor-id="visit_detail_id">VISIT_DETAIL_ID</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A foreign key to the visit in the VISIT_DETAIL table during which the Condition was determined (diagnosed).</li>
-</ul>
+<section id="visit_occurrence_id" class="level5">
+<h5 class="anchored" data-anchor-id="visit_occurrence_id">visit_occurrence_id</h5>
+<p>A foreign key to the visit in the VISIT_OCCURRENCE table during which the Condition was determined (diagnosed).</p>
 </section>
-<section id="condition_source_value" class="level3">
-<h3 class="anchored" data-anchor-id="condition_source_value">CONDITION_SOURCE_VALUE</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> The source code for the Condition as it appears in the source data. It is typically ICD9 or ICD10; or the dx_id if we dont have the ICD codes.</li>
-</ul>
+<section id="visit_detail_id" class="level5">
+<h5 class="anchored" data-anchor-id="visit_detail_id">visit_detail_id</h5>
+<p>A foreign key to the visit in the VISIT_DETAIL table during which the Condition was determined (diagnosed).</p>
 </section>
-<section id="condition_source_concept_id" class="level3">
-<h3 class="anchored" data-anchor-id="condition_source_concept_id">CONDITION_SOURCE_CONCEPT_ID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A foreign key to a Condition Concept that refers to the code used in the source.</li>
-</ul>
+<section id="condition_source_value" class="level5">
+<h5 class="anchored" data-anchor-id="condition_source_value">condition_source_value</h5>
+<p>The source code for the Condition as it appears in the source data. It is typically ICD9 or ICD10; or the dx_id if we dont have the ICD codes.</p>
 </section>
-<section id="condition_status_source_value" class="level3">
-<h3 class="anchored" data-anchor-id="condition_status_source_value">CONDITION_STATUS_SOURCE_VALUE</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> The source code for the condition status as it appears in the source data. This code is mapped to a Standard Concept in the Standardized Vocabularies and the original code is stored here for reference.</li>
-</ul>
+<section id="condition_source_concept_id" class="level5">
+<h5 class="anchored" data-anchor-id="condition_source_concept_id">condition_source_concept_id</h5>
+<p>A foreign key to a Condition Concept that refers to the code used in the source.</p>
 </section>
-<section id="trace_id-stanford-construct-for-traceability" class="level3">
-<h3 class="anchored" data-anchor-id="trace_id-stanford-construct-for-traceability">TRACE_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> Yes</li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> A json string with the primary keys of the table in Clarity where most of the information for a given row is sourced</li>
-</ul>
+<section id="condition_status_source_value" class="level5">
+<h5 class="anchored" data-anchor-id="condition_status_source_value">condition_status_source_value</h5>
+<p>The source code for the condition status as it appears in the source data. This code is mapped to a Standard Concept in the Standardized Vocabularies and the original code is stored here for reference.</p>
 </section>
-<section id="unit_id-stanford-construct-for-traceability" class="level3">
-<h3 class="anchored" data-anchor-id="unit_id-stanford-construct-for-traceability">UNIT_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> Is a reference for the position in the ETL code responsible for bringing in this row level data</li>
-</ul>
+<section id="trace_id-stanford-construct-for-traceability" class="level5">
+<h5 class="anchored" data-anchor-id="trace_id-stanford-construct-for-traceability">trace_id (stanford construct for traceability)</h5>
+<p>A json string with the primary keys of the table in Clarity where most of the information for a given row is sourced</p>
 </section>
-<section id="load_table_id-stanford-construct-for-traceability" class="level3">
-<h3 class="anchored" data-anchor-id="load_table_id-stanford-construct-for-traceability">LOAD_TABLE_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> Is the name of the primary Clarity table in Clarity where most of the information for a given row is sourced</li>
-</ul>
+<section id="unit_id-stanford-construct-for-traceability" class="level5">
+<h5 class="anchored" data-anchor-id="unit_id-stanford-construct-for-traceability">unit_id (stanford construct for traceability)</h5>
+<p>Is a reference for the position in the ETL code responsible for bringing in this row level data</p>
+</section>
+<section id="load_table_id-stanford-construct-for-traceability" class="level5">
+<h5 class="anchored" data-anchor-id="load_table_id-stanford-construct-for-traceability">load_table_id (stanford construct for traceability)</h5>
+<p>Is the name of the primary Clarity table in Clarity where most of the information for a given row is sourced</p>
 
 
 </section>
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -977,6 +994,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../omop_data_dict/condition_era.html" class="pagination-link" aria-label="CONDITION_ERA">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">CONDITION_ERA</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../omop_data_dict/death.html" class="pagination-link" aria-label="DEATH">
+        <span class="nav-page-text">DEATH</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 

@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../omop_data_dict/person.html" rel="next">
+<link href="../omop_data_dict/observation_period.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -71,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-sidebar docked nav-fixed">
+<body class="nav-sidebar floating nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -103,24 +105,16 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/payer_plan_period.html">PAYER_PLAN_PERIOD</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/care_site.html">omop cdm</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/payer_plan_period.html">PAYER_PLAN_PERIOD</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
@@ -132,6 +126,15 @@ ul.task-list li input[type="checkbox"] {
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">omop cdm</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../omop_data_dict/care_site.html" class="sidebar-item-text sidebar-link">
@@ -320,45 +323,18 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#description" id="toc-description" class="nav-link active" data-scroll-target="#description">Description</a>
-  <ul class="collapse">
-  <li><a href="#payer_plan_period_id" id="toc-payer_plan_period_id" class="nav-link" data-scroll-target="#payer_plan_period_id">PAYER_PLAN_PERIOD_ID</a></li>
-  <li><a href="#person_id" id="toc-person_id" class="nav-link" data-scroll-target="#person_id">PERSON_ID</a></li>
-  <li><a href="#payer_plan_period_start_date" id="toc-payer_plan_period_start_date" class="nav-link" data-scroll-target="#payer_plan_period_start_date">PAYER_PLAN_PERIOD_START_DATE</a></li>
-  <li><a href="#payer_plan_period_end_date" id="toc-payer_plan_period_end_date" class="nav-link" data-scroll-target="#payer_plan_period_end_date">PAYER_PLAN_PERIOD_END_DATE</a></li>
-  <li><a href="#payer_concept_id" id="toc-payer_concept_id" class="nav-link" data-scroll-target="#payer_concept_id">PAYER_CONCEPT_ID</a></li>
-  <li><a href="#payer_source_value" id="toc-payer_source_value" class="nav-link" data-scroll-target="#payer_source_value">PAYER_SOURCE_VALUE</a></li>
-  <li><a href="#payer_source_concept_id" id="toc-payer_source_concept_id" class="nav-link" data-scroll-target="#payer_source_concept_id">PAYER_SOURCE_CONCEPT_ID</a></li>
-  <li><a href="#plan_concept_id" id="toc-plan_concept_id" class="nav-link" data-scroll-target="#plan_concept_id">PLAN_CONCEPT_ID</a></li>
-  <li><a href="#plan_source_value" id="toc-plan_source_value" class="nav-link" data-scroll-target="#plan_source_value">PLAN_SOURCE_VALUE</a></li>
-  <li><a href="#plan_source_concept_id" id="toc-plan_source_concept_id" class="nav-link" data-scroll-target="#plan_source_concept_id">PLAN_SOURCE_CONCEPT_ID</a></li>
-  <li><a href="#sponsor_concept_id" id="toc-sponsor_concept_id" class="nav-link" data-scroll-target="#sponsor_concept_id">SPONSOR_CONCEPT_ID</a></li>
-  <li><a href="#sponsor_source_value" id="toc-sponsor_source_value" class="nav-link" data-scroll-target="#sponsor_source_value">SPONSOR_SOURCE_VALUE</a></li>
-  <li><a href="#sponsor_source_concept_id" id="toc-sponsor_source_concept_id" class="nav-link" data-scroll-target="#sponsor_source_concept_id">SPONSOR_SOURCE_CONCEPT_ID</a></li>
-  <li><a href="#family_source_value" id="toc-family_source_value" class="nav-link" data-scroll-target="#family_source_value">FAMILY_SOURCE_VALUE</a></li>
-  <li><a href="#stop_reason_concept_id" id="toc-stop_reason_concept_id" class="nav-link" data-scroll-target="#stop_reason_concept_id">STOP_REASON_CONCEPT_ID</a></li>
-  <li><a href="#stop_reason_source_value" id="toc-stop_reason_source_value" class="nav-link" data-scroll-target="#stop_reason_source_value">STOP_REASON_SOURCE_VALUE</a></li>
-  <li><a href="#stop_reason_source_concept_id" id="toc-stop_reason_source_concept_id" class="nav-link" data-scroll-target="#stop_reason_source_concept_id">STOP_REASON_SOURCE_CONCEPT_ID</a></li>
-  <li><a href="#trace_id-stanford-construct-for-traceability" id="toc-trace_id-stanford-construct-for-traceability" class="nav-link" data-scroll-target="#trace_id-stanford-construct-for-traceability">TRACE_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</a></li>
-  <li><a href="#load_table_id-stanford-construct-for-traceability" id="toc-load_table_id-stanford-construct-for-traceability" class="nav-link" data-scroll-target="#load_table_id-stanford-construct-for-traceability">LOAD_TABLE_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/payer_plan_period.html">PAYER_PLAN_PERIOD</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/care_site.html">omop cdm</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/payer_plan_period.html">PAYER_PLAN_PERIOD</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">PAYER_PLAN_PERIOD</h1>
 </div>
@@ -377,186 +353,227 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="description" class="level2">
-<h2 class="anchored" data-anchor-id="description">Description</h2>
 <p>Standardized Health Economics data Table, currently empty</p>
-<p>The following columns are available in this table:</p>
-<section id="payer_plan_period_id" class="level3">
-<h3 class="anchored" data-anchor-id="payer_plan_period_id">PAYER_PLAN_PERIOD_ID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A unique identifier for each unique combination of a Person, Payer, Plan, and Period of time.</li>
-</ul>
+<section id="table-columns" class="level3">
+<h3 class="anchored" data-anchor-id="table-columns">Table Columns</h3>
+<div class="table-responsive">
+<table class="table-hover caption-top table">
+<colgroup>
+<col style="width: 65%">
+<col style="width: 11%">
+<col style="width: 8%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">field</th>
+<th style="text-align: left;">type</th>
+<th style="text-align: left;">phi</th>
+<th style="text-align: left;">required</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">payer_plan_period_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">person_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">payer_plan_period_start_date</td>
+<td style="text-align: left;">DATE</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">payer_plan_period_end_date</td>
+<td style="text-align: left;">DATE</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">payer_concept_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">payer_source_value</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">payer_source_concept_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">plan_concept_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">plan_source_value</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">plan_source_concept_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">sponsor_concept_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">sponsor_source_value</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">sponsor_source_concept_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">family_source_value</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">stop_reason_concept_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">stop_reason_source_value</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">stop_reason_source_concept_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">trace_id (Stanford construct for traceability)</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">load_table_id (Stanford construct for traceability)</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">No</td>
+</tr>
+</tbody>
+</table>
+</div>
 </section>
-<section id="person_id" class="level3">
-<h3 class="anchored" data-anchor-id="person_id">PERSON_ID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> The Person covered by the Plan. The demographic details of that Person are stored in the PERSON table.</li>
-</ul>
+<section id="columns-description" class="level3">
+<h3 class="anchored" data-anchor-id="columns-description">Columns Description</h3>
+<section id="payer_plan_period_id" class="level5">
+<h5 class="anchored" data-anchor-id="payer_plan_period_id">payer_plan_period_id</h5>
+<p>A unique identifier for each unique combination of a Person, Payer, Plan, and Period of time.</p>
 </section>
-<section id="payer_plan_period_start_date" class="level3">
-<h3 class="anchored" data-anchor-id="payer_plan_period_start_date">PAYER_PLAN_PERIOD_START_DATE</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong> Yes</li>
-<li><strong>Data Type:</strong> DATE</li>
-<li><strong>Description:</strong> The start date of the payer plan period.</li>
-</ul>
+<section id="person_id" class="level5">
+<h5 class="anchored" data-anchor-id="person_id">person_id</h5>
+<p>The Person covered by the Plan. The demographic details of that Person are stored in the PERSON table.</p>
 </section>
-<section id="payer_plan_period_end_date" class="level3">
-<h3 class="anchored" data-anchor-id="payer_plan_period_end_date">PAYER_PLAN_PERIOD_END_DATE</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong> Yes</li>
-<li><strong>Data Type:</strong> DATE</li>
-<li><strong>Description:</strong> The end date of the payer plan period.</li>
-</ul>
+<section id="payer_plan_period_start_date" class="level5">
+<h5 class="anchored" data-anchor-id="payer_plan_period_start_date">payer_plan_period_start_date</h5>
+<p>The start date of the payer plan period.</p>
 </section>
-<section id="payer_concept_id" class="level3">
-<h3 class="anchored" data-anchor-id="payer_concept_id">PAYER_CONCEPT_ID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> This field represents the organization who reimburses the provider which administers care to the Person. This field refers to a standard Payer concept identifier in the Standarized Vocabularies.</li>
-</ul>
+<section id="payer_plan_period_end_date" class="level5">
+<h5 class="anchored" data-anchor-id="payer_plan_period_end_date">payer_plan_period_end_date</h5>
+<p>The end date of the payer plan period.</p>
 </section>
-<section id="payer_source_value" class="level3">
-<h3 class="anchored" data-anchor-id="payer_source_value">PAYER_SOURCE_VALUE</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> Yes</li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> The source code for the payer as it appears in the source data. Currently it is “payer_ SOPT Desc | SOPT ID | Epic Payer Name| Epic Payor ID | Epic Financial Class Name | Epic Financial Class ID”. SOPT is the payer type standard that provides a mechanism for consistent reporting of payer data to public health agencies for health care services and research</li>
-</ul>
+<section id="payer_concept_id" class="level5">
+<h5 class="anchored" data-anchor-id="payer_concept_id">payer_concept_id</h5>
+<p>This field represents the organization who reimburses the provider which administers care to the Person. This field refers to a standard Payer concept identifier in the Standarized Vocabularies.</p>
 </section>
-<section id="payer_source_concept_id" class="level3">
-<h3 class="anchored" data-anchor-id="payer_source_concept_id">PAYER_SOURCE_CONCEPT_ID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A foreign key to a payer concept that refers to the code used in the source. It is the OMOP concept id corresponding to the source code.</li>
-</ul>
+<section id="payer_source_value" class="level5">
+<h5 class="anchored" data-anchor-id="payer_source_value">payer_source_value</h5>
+<p>The source code for the payer as it appears in the source data. Currently it is “payer_ SOPT Desc | SOPT ID | Epic Payer Name| Epic Payor ID | Epic Financial Class Name | Epic Financial Class ID”. SOPT is the payer type standard that provides a mechanism for consistent reporting of payer data to public health agencies for health care services and research</p>
 </section>
-<section id="plan_concept_id" class="level3">
-<h3 class="anchored" data-anchor-id="plan_concept_id">PLAN_CONCEPT_ID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A foreign key that refers to a standard plan concept identifier that represents the health benefit plan in the Standardized Vocabularies.</li>
-</ul>
+<section id="payer_source_concept_id" class="level5">
+<h5 class="anchored" data-anchor-id="payer_source_concept_id">payer_source_concept_id</h5>
+<p>A foreign key to a payer concept that refers to the code used in the source. It is the OMOP concept id corresponding to the source code.</p>
 </section>
-<section id="plan_source_value" class="level3">
-<h3 class="anchored" data-anchor-id="plan_source_value">PLAN_SOURCE_VALUE</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> Yes</li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> The source code for the Person’s health benefit plan as it appears in the source data. Currently it is “Epic Plan Name| Epic Plan ID”.</li>
-</ul>
+<section id="plan_concept_id" class="level5">
+<h5 class="anchored" data-anchor-id="plan_concept_id">plan_concept_id</h5>
+<p>A foreign key that refers to a standard plan concept identifier that represents the health benefit plan in the Standardized Vocabularies.</p>
 </section>
-<section id="plan_source_concept_id" class="level3">
-<h3 class="anchored" data-anchor-id="plan_source_concept_id">PLAN_SOURCE_CONCEPT_ID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A foreign key to a plan concept that refers to the plan code used in the source data.</li>
-</ul>
+<section id="plan_source_value" class="level5">
+<h5 class="anchored" data-anchor-id="plan_source_value">plan_source_value</h5>
+<p>The source code for the Person’s health benefit plan as it appears in the source data. Currently it is “Epic Plan Name| Epic Plan ID”.</p>
 </section>
-<section id="sponsor_concept_id" class="level3">
-<h3 class="anchored" data-anchor-id="sponsor_concept_id">SPONSOR_CONCEPT_ID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A foreign key that refers to a concept identifier that represents the sponsor in the Standardized Vocabularies.</li>
-</ul>
+<section id="plan_source_concept_id" class="level5">
+<h5 class="anchored" data-anchor-id="plan_source_concept_id">plan_source_concept_id</h5>
+<p>A foreign key to a plan concept that refers to the plan code used in the source data.</p>
 </section>
-<section id="sponsor_source_value" class="level3">
-<h3 class="anchored" data-anchor-id="sponsor_source_value">SPONSOR_SOURCE_VALUE</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> The source code for the Person’s sponsor of the health plan as it appears in the source data.</li>
-</ul>
+<section id="sponsor_concept_id" class="level5">
+<h5 class="anchored" data-anchor-id="sponsor_concept_id">sponsor_concept_id</h5>
+<p>A foreign key that refers to a concept identifier that represents the sponsor in the Standardized Vocabularies.</p>
 </section>
-<section id="sponsor_source_concept_id" class="level3">
-<h3 class="anchored" data-anchor-id="sponsor_source_concept_id">SPONSOR_SOURCE_CONCEPT_ID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A foreign key to a sponsor concept that refers to the sponsor code used in the source data.</li>
-</ul>
+<section id="sponsor_source_value" class="level5">
+<h5 class="anchored" data-anchor-id="sponsor_source_value">sponsor_source_value</h5>
+<p>The source code for the Person’s sponsor of the health plan as it appears in the source data.</p>
 </section>
-<section id="family_source_value" class="level3">
-<h3 class="anchored" data-anchor-id="family_source_value">FAMILY_SOURCE_VALUE</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> Yes</li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> The source code for the Person’s family as it appears in the source data.</li>
-</ul>
+<section id="sponsor_source_concept_id" class="level5">
+<h5 class="anchored" data-anchor-id="sponsor_source_concept_id">sponsor_source_concept_id</h5>
+<p>A foreign key to a sponsor concept that refers to the sponsor code used in the source data.</p>
 </section>
-<section id="stop_reason_concept_id" class="level3">
-<h3 class="anchored" data-anchor-id="stop_reason_concept_id">STOP_REASON_CONCEPT_ID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A foreign key that refers to a standard termination reason that represents the reason for the termination in the Standardized Vocabularies.</li>
-</ul>
+<section id="family_source_value" class="level5">
+<h5 class="anchored" data-anchor-id="family_source_value">family_source_value</h5>
+<p>The source code for the Person’s family as it appears in the source data.</p>
 </section>
-<section id="stop_reason_source_value" class="level3">
-<h3 class="anchored" data-anchor-id="stop_reason_source_value">STOP_REASON_SOURCE_VALUE</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> Yes</li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> The reason for stop-coverage as it appears in the source data.</li>
-</ul>
+<section id="stop_reason_concept_id" class="level5">
+<h5 class="anchored" data-anchor-id="stop_reason_concept_id">stop_reason_concept_id</h5>
+<p>A foreign key that refers to a standard termination reason that represents the reason for the termination in the Standardized Vocabularies.</p>
 </section>
-<section id="stop_reason_source_concept_id" class="level3">
-<h3 class="anchored" data-anchor-id="stop_reason_source_concept_id">STOP_REASON_SOURCE_CONCEPT_ID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> A foreign key to a stop-coverage concept that refers to the code used in the source</li>
-</ul>
+<section id="stop_reason_source_value" class="level5">
+<h5 class="anchored" data-anchor-id="stop_reason_source_value">stop_reason_source_value</h5>
+<p>The reason for stop-coverage as it appears in the source data.</p>
 </section>
-<section id="trace_id-stanford-construct-for-traceability" class="level3">
-<h3 class="anchored" data-anchor-id="trace_id-stanford-construct-for-traceability">TRACE_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> Yes</li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> Is a reference for the position in the ETL code resposible for bringing in this row data</li>
-</ul>
+<section id="stop_reason_source_concept_id" class="level5">
+<h5 class="anchored" data-anchor-id="stop_reason_source_concept_id">stop_reason_source_concept_id</h5>
+<p>A foreign key to a stop-coverage concept that refers to the code used in the source</p>
 </section>
-<section id="load_table_id-stanford-construct-for-traceability" class="level3">
-<h3 class="anchored" data-anchor-id="load_table_id-stanford-construct-for-traceability">LOAD_TABLE_ID (STANFORD CONSTRUCT FOR TRACEABILITY)</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong> Yes</li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> Is the name of the primary Clarity table in Clarity where most of the information for a given row is sourced</li>
-</ul>
+<section id="trace_id-stanford-construct-for-traceability" class="level5">
+<h5 class="anchored" data-anchor-id="trace_id-stanford-construct-for-traceability">trace_id (stanford construct for traceability)</h5>
+<p>Is a reference for the position in the ETL code resposible for bringing in this row data</p>
+</section>
+<section id="load_table_id-stanford-construct-for-traceability" class="level5">
+<h5 class="anchored" data-anchor-id="load_table_id-stanford-construct-for-traceability">load_table_id (stanford construct for traceability)</h5>
+<p>Is the name of the primary Clarity table in Clarity where most of the information for a given row is sourced</p>
 
 
 </section>
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -977,6 +994,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../omop_data_dict/observation_period.html" class="pagination-link" aria-label="OBSERVATION_PERIOD">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">OBSERVATION_PERIOD</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../omop_data_dict/person.html" class="pagination-link" aria-label="PERSON">
+        <span class="nav-page-text">PERSON</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 

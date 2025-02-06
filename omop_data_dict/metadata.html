@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../omop_data_dict/note.html" rel="next">
+<link href="../omop_data_dict/measurement.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -71,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-sidebar docked nav-fixed">
+<body class="nav-sidebar floating nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -103,24 +105,16 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/metadata.html">METADATA</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/care_site.html">omop cdm</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/metadata.html">METADATA</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
@@ -132,6 +126,15 @@ ul.task-list li input[type="checkbox"] {
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">omop cdm</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../omop_data_dict/care_site.html" class="sidebar-item-text sidebar-link">
@@ -320,35 +323,18 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#description" id="toc-description" class="nav-link active" data-scroll-target="#description">Description</a>
-  <ul class="collapse">
-  <li><a href="#metadata_concept_id" id="toc-metadata_concept_id" class="nav-link" data-scroll-target="#metadata_concept_id">METADATA_CONCEPT_ID</a></li>
-  <li><a href="#metadata_type_concept_id" id="toc-metadata_type_concept_id" class="nav-link" data-scroll-target="#metadata_type_concept_id">METADATA_TYPE_CONCEPT_ID</a></li>
-  <li><a href="#name" id="toc-name" class="nav-link" data-scroll-target="#name">NAME</a></li>
-  <li><a href="#value_as_string" id="toc-value_as_string" class="nav-link" data-scroll-target="#value_as_string">VALUE_AS_STRING</a></li>
-  <li><a href="#value_as_concept_id" id="toc-value_as_concept_id" class="nav-link" data-scroll-target="#value_as_concept_id">VALUE_AS_CONCEPT_ID</a></li>
-  <li><a href="#metadata_date" id="toc-metadata_date" class="nav-link" data-scroll-target="#metadata_date">METADATA_DATE</a></li>
-  <li><a href="#metadata_datetime" id="toc-metadata_datetime" class="nav-link" data-scroll-target="#metadata_datetime">METADATA_DATETIME</a></li>
-  <li><a href="#unit_id" id="toc-unit_id" class="nav-link" data-scroll-target="#unit_id">UNIT_ID</a></li>
-  <li><a href="#load_table" id="toc-load_table" class="nav-link" data-scroll-target="#load_table">LOAD_TABLE</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/metadata.html">METADATA</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../data_dictionary.html">Data Dictionary</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/care_site.html">omop cdm</a></li><li class="breadcrumb-item"><a href="../omop_data_dict/metadata.html">METADATA</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">METADATA</h1>
 </div>
@@ -367,96 +353,121 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="description" class="level2">
-<h2 class="anchored" data-anchor-id="description">Description</h2>
 <p>Standardized Metadata Table</p>
-<p>The following columns are available in this table:</p>
-<section id="metadata_concept_id" class="level3">
-<h3 class="anchored" data-anchor-id="metadata_concept_id">METADATA_CONCEPT_ID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> Standard concept corresponding to the OMOP version.</li>
-</ul>
+<section id="table-columns" class="level3">
+<h3 class="anchored" data-anchor-id="table-columns">Table Columns</h3>
+<div class="table-responsive">
+<table class="table-hover caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">field</th>
+<th style="text-align: left;">type</th>
+<th style="text-align: left;">phi</th>
+<th style="text-align: left;">required</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">metadata_concept_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">metadata_type_concept_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">name</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">value_as_string</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">value_as_concept_id</td>
+<td style="text-align: left;">INTEGER</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">metadata_date</td>
+<td style="text-align: left;">DATE</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">metadata_datetime</td>
+<td style="text-align: left;">DATETIME</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">unit_id</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">load_table</td>
+<td style="text-align: left;">STRING</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">No</td>
+</tr>
+</tbody>
+</table>
+</div>
 </section>
-<section id="metadata_type_concept_id" class="level3">
-<h3 class="anchored" data-anchor-id="metadata_type_concept_id">METADATA_TYPE_CONCEPT_ID</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> concept_id describing the provenance of the data.</li>
-</ul>
+<section id="columns-description" class="level3">
+<h3 class="anchored" data-anchor-id="columns-description">Columns Description</h3>
+<section id="metadata_concept_id" class="level5">
+<h5 class="anchored" data-anchor-id="metadata_concept_id">metadata_concept_id</h5>
+<p>Standard concept corresponding to the OMOP version.</p>
 </section>
-<section id="name" class="level3">
-<h3 class="anchored" data-anchor-id="name">NAME</h3>
-<ul>
-<li><strong>Required:</strong> Yes</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> OMOP Version name</li>
-</ul>
+<section id="metadata_type_concept_id" class="level5">
+<h5 class="anchored" data-anchor-id="metadata_type_concept_id">metadata_type_concept_id</h5>
+<p>concept_id describing the provenance of the data.</p>
 </section>
-<section id="value_as_string" class="level3">
-<h3 class="anchored" data-anchor-id="value_as_string">VALUE_AS_STRING</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> nan</li>
-</ul>
+<section id="name" class="level5">
+<h5 class="anchored" data-anchor-id="name">name</h5>
+<p>OMOP Version name</p>
 </section>
-<section id="value_as_concept_id" class="level3">
-<h3 class="anchored" data-anchor-id="value_as_concept_id">VALUE_AS_CONCEPT_ID</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> INTEGER</li>
-<li><strong>Description:</strong> nan</li>
-</ul>
+<section id="value_as_string" class="level5">
+<h5 class="anchored" data-anchor-id="value_as_string">value_as_string</h5>
+<p>nan</p>
 </section>
-<section id="metadata_date" class="level3">
-<h3 class="anchored" data-anchor-id="metadata_date">METADATA_DATE</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> DATE</li>
-<li><strong>Description:</strong> Raw clarity source date.</li>
-</ul>
+<section id="value_as_concept_id" class="level5">
+<h5 class="anchored" data-anchor-id="value_as_concept_id">value_as_concept_id</h5>
+<p>nan</p>
 </section>
-<section id="metadata_datetime" class="level3">
-<h3 class="anchored" data-anchor-id="metadata_datetime">METADATA_DATETIME</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> DATETIME</li>
-<li><strong>Description:</strong> Raw clarity source datetime.</li>
-</ul>
+<section id="metadata_date" class="level5">
+<h5 class="anchored" data-anchor-id="metadata_date">metadata_date</h5>
+<p>Raw clarity source date.</p>
 </section>
-<section id="unit_id" class="level3">
-<h3 class="anchored" data-anchor-id="unit_id">UNIT_ID</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> Is a reference for the position in the ETL code responsible for bringing in this row level data</li>
-</ul>
+<section id="metadata_datetime" class="level5">
+<h5 class="anchored" data-anchor-id="metadata_datetime">metadata_datetime</h5>
+<p>Raw clarity source datetime.</p>
 </section>
-<section id="load_table" class="level3">
-<h3 class="anchored" data-anchor-id="load_table">LOAD_TABLE</h3>
-<ul>
-<li><strong>Required:</strong> No</li>
-<li><strong>Contains PHI:</strong></li>
-<li><strong>Data Type:</strong> STRING</li>
-<li><strong>Description:</strong> A json string with the primary keys of the table in Clarity where most of the information for a given row is sourced</li>
-</ul>
+<section id="unit_id" class="level5">
+<h5 class="anchored" data-anchor-id="unit_id">unit_id</h5>
+<p>Is a reference for the position in the ETL code responsible for bringing in this row level data</p>
+</section>
+<section id="load_table" class="level5">
+<h5 class="anchored" data-anchor-id="load_table">load_table</h5>
+<p>A json string with the primary keys of the table in Clarity where most of the information for a given row is sourced</p>
 
 
 </section>
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -877,6 +888,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../omop_data_dict/measurement.html" class="pagination-link" aria-label="MEASUREMENT">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">MEASUREMENT</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../omop_data_dict/note.html" class="pagination-link" aria-label="NOTE">
+        <span class="nav-page-text">NOTE</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 
